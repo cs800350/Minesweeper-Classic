@@ -7,6 +7,7 @@
 //
 
 #import "DemineurAppDelegate.h"
+#import "MenuController.h"
 
 //TODO A ENLEVER
 //
@@ -24,6 +25,11 @@
     
     // Override point for customization after application launch.
     
+	MenuController *menuController = [[MenuController alloc]init];
+	UINavigationController *uiNavigationController = [[UINavigationController alloc]initWithRootViewController:menuController];
+	[menuController release];
+	
+	[self.window addSubview:uiNavigationController.view];
     [self.window makeKeyAndVisible];
     
     return YES;
