@@ -64,7 +64,7 @@ enum difficulties {BEGINER, MEDIUM, HARD};
 //Instance methods
 //
 -(int)getCellValue:(int)x withY:(int)y;
--(int)discloseCell:(int)x withY:(int)y;
+-(void)discloseCell:(int)x withY:(int)y;
 -(bool)putFlag:(int)x withY:(int)y;
 -(bool)removeFlag:(int)x withY:(int)y;
 -(int)getCellState:(int)x withY:(int)y;

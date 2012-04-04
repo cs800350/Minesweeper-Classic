@@ -8,17 +8,27 @@
 
 #import <UIKit/UIKit.h>
 #import "GridModel.h"
+#import "GridView.h"
+#import "GameSquare.h"
 
 
 @interface GameViewController : UIViewController {
+
 @private
 	GridModel *gridBrain;
+	GridView *gridView;
 }
 
 @property (retain) GridModel *gridBrain;
+@property (retain) GridView *gridView;
 
-// Constructors
+//Constructors
 //
 - (id)initWithDifficulty:(enum difficulties)difficulty;
+
+//Methods
+//
+
+
 
 @end

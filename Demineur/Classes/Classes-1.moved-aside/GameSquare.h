@@ -2,21 +2,26 @@
 //  GameSquare.h
 //  Demineur
 //
-//  Created by Antoine on 04/04/12.
+//  Created by adminuser on 02/04/12.
 //  Copyright 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 
 @interface GameSquare : UIView {
-
-	@private
+@private
+	// Coordinatess of the square on the game grid
 	int coordX;
 	int coordY;
 }
 
 @property int coordX;
 @property int coordY;
+
+//Constructor
+//
+-(GameSquare*) initGameSquareWithType:UIButtonTypeRoundedRect;
+
 
 @end

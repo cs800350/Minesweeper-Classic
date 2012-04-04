@@ -130,7 +130,7 @@
 	return -3;
 }
 
--(int)discloseCell:(int)x withY:(int)y
+-(void)discloseCell:(int)x withY:(int)y
 {
 	if (x > -1 && x < self.gridWidth) 
 	{
@@ -139,7 +139,6 @@
 			if(self.gridState[x][y] == 0)
 			{
 				self.gridState[x][y] = 1;
-				return self.gridValues[x][y];
 				
 				//
 				//
@@ -168,11 +167,8 @@
 					}
 				}
 			}
-			return -2;
 		}
 	}
-	
-	return -3;
 }
 
 -(bool)putFlag:(int)x withY:(int)y
@@ -234,8 +230,8 @@
 	int nbmines = 0;
 	while (nbmines < mines) 
 	{
-		int mine_locX = (0 + (rand () % (width-1)));
-		int mine_locY = (0 + (rand () % (heigth-1)));
+		int mine_locX = (0 + (arc4random () % (width-1)));
+		int mine_locY = (0 + (arc4random () % (heigth-1)));
 		
 		//If x and y are valid coord
 		//

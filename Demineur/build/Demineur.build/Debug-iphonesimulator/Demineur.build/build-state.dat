@@ -1,17 +1,27 @@
 TDemineur
 v7
 r0
-t355219268.530536
+t355242640.144024
 cCheck dependencies
-cProcessInfoPlistFile /Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Debug-iphonesimulator/Demineur.app/Info.plist Demineur-Info.plist
-cCompileXIB /Users/antoine/Documents/MIAGE/iOS/Project/Demineur/MainWindow.xib
-cProcessPCH /var/folders/Xg/XgkYQHg6H-iAzWm1PRTYeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demineur_Prefix-ficelqedtqskacdeprwxrypwrcup/Demineur_Prefix.pch.gch Demineur_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/main.o /Users/antoine/Documents/MIAGE/iOS/Project/Demineur/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/DemineurAppDelegate.o /Users/antoine/Documents/MIAGE/iOS/Project/Demineur/Classes/DemineurAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/GridModel.o /Users/antoine/Documents/MIAGE/iOS/Project/Demineur/Classes/GridModel.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Debug-iphonesimulator/Demineur.app/Demineur normal i386
-cGenerateDSYMFile /Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Debug-iphonesimulator/Demineur.app.dSYM /Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Debug-iphonesimulator/Demineur.app/Demineur
-cTouch /Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Debug-iphonesimulator/Demineur.app
+cProcessInfoPlistFile /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app/Info.plist Demineur-Info.plist
+cCompileXIB /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/MainWindow.xib
+cCpResource build/Debug-iphonesimulator/Demineur.app/case.png Classes/case.png
+cCompileXIB /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/GameViewController.xib
+cCompileXIB /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/MenuController.xib
+cCpResource build/Debug-iphonesimulator/Demineur.app/caseOuverte.png Classes/caseOuverte.png
+cCpResource build/Debug-iphonesimulator/Demineur.app/caseBomb.png Classes/caseBomb.png
+cCpResource build/Debug-iphonesimulator/Demineur.app/caseFlag.png Classes/caseFlag.png
+cProcessPCH /var/folders/Xg/XgkYQHg6H-iAzWm1PRTYeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demineur_Prefix-gkoqvfgtqpwvomgozrecyohluarz/Demineur_Prefix.pch.gch Demineur_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/main.o /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/DemineurAppDelegate.o /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/DemineurAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/GridModel.o /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/GridModel.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/GameViewController.o /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/GameViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/GridView.o /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/GridView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/MenuController.o /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/MenuController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/GameSquare.o /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/GameSquare.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app/Demineur normal i386
+cGenerateDSYMFile /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app.dSYM /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app/Demineur
+cTouch /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app
 
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
 c000000004CC128950000000000000110
@@ -156,6 +166,246 @@ t1332929614
 s358
 i<UIKit/UIKit.h>
 
+N/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/DemineurAppDelegate.h
+c000000004F72E44E0000000000000146
+t1332929614
+s326
+i<UIKit/UIKit.h>
+
+N/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/DemineurAppDelegate.m
+c000000004F7C0A880000000000000C3C
+t1333529224
+s3132
+i"DemineurAppDelegate.h"
+i"MenuController.h"
+i"GridModel.h"
+
+N/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/GameSquare.h
+c000000004F7C28D6000000000000011C
+t1333536982
+s284
+i<UIKit/UIKit.h>
+
+N/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/GameSquare.m
+c000000004F7C2AE200000000000001B0
+t1333537506
+s432
+i"GameSquare.h"
+
+N/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/GameViewController.h
+c000000004F7C309A000000000000020A
+t1333538970
+s522
+i<UIKit/UIKit.h>
+i"GridModel.h"
+i"GridView.h"
+i"GameSquare.h"
+
+N/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/GameViewController.m
+c000000004F7C33A80000000000000FC2
+t1333539752
+s4034
+i"GameViewController.h"
+i"GridModel.h"
+i"GridView.h"
+
+N/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/GridModel.h
+c000000004F7C331400000000000005B7
+t1333539604
+s1463
+i<Foundation/Foundation.h>
+
+N/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/GridModel.m
+c000000004F7C586B000000000000159F
+t1333549163
+s5535
+i"GridModel.h"
+
+N/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/GridView.h
+c000000004F7C31680000000000000245
+t1333539176
+s581
+i<UIKit/UIKit.h>
+i"GameSquare.h"
+
+N/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/GridView.m
+c000000004F7C5B0D0000000000001511
+t1333549837
+s5393
+i"GridView.h"
+i"GameSquare.h"
+
+N/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/MenuController.h
+c000000004F7C08A00000000000000111
+t1333528736
+s273
+i<UIKit/UIKit.h>
+
+N/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/MenuController.m
+c000000004F7C0BC900000000000007B3
+t1333529545
+s1971
+i"MenuController.h"
+i"GameViewController.h"
+i"GridModel.h"
+
+N/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/case.png
+c000000004F7C4B36000000000000098C
+t1333545782
+s2444
+
+N/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/caseBomb.png
+c000000004F7C4B2C0000000000001E22
+t1333545772
+s7714
+
+N/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/caseFlag.png
+c000000004F7C4B2F00000000000018FD
+t1333545775
+s6397
+
+N/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/caseOuverte.png
+c000000004F7C4B3200000000000004D9
+t1333545778
+s1241
+
+N/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Demineur_Prefix.pch
+c000000004F72E44E00000000000000B9
+t1332929614
+s185
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/GameViewController.xib
+c000000004F7C08A00000000000004260
+t1333528736
+s16992
+
+N/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/MainWindow.xib
+c000000004F72E44E0000000000003E72
+t1332929614
+s15986
+
+N/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/MenuController.xib
+c000000004F7C08A00000000000005EE6
+t1333528736
+s24294
+
+N/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app
+t1333549838
+s408
+
+N/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app.dSYM
+t1333549838
+s102
+
+N/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app/Demineur
+t1333549838
+s39200
+
+N/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app/GameViewController.nib
+t1333549286
+s1011
+
+N/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app/Info.plist
+t1333549285
+s802
+
+N/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app/MainWindow.nib
+t1333549285
+s985
+
+N/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app/MenuController.nib
+t1333549287
+s2048
+
+N/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app/PkgInfo
+t1333549285
+s8
+
+N/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app/case.png
+t1333549285
+s2444
+
+N/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app/caseBomb.png
+t1333549287
+s7714
+
+N/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app/caseFlag.png
+t1333549287
+s6397
+
+N/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app/caseOuverte.png
+t1333549287
+s1241
+
+N/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/Demineur.LinkFileList
+c000000004F7C58E50000000000000481
+t1333549285
+s1153
+
+N/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/DemineurAppDelegate.o
+t1333549288
+s54048
+
+N/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/GameSquare.o
+t1333549288
+s39060
+
+N/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/GameViewController.o
+t1333549288
+s48104
+
+N/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/GridModel.o
+t1333549288
+s22384
+
+N/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/GridView.o
+t1333549838
+s46088
+
+N/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/MenuController.o
+t1333549288
+s41892
+
+N/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/main.o
+t1333549287
+s6368
+
+N/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/StaticAnalyzer/normal/i386/DemineurAppDelegate.plist
+t1333547426
+s5784
+
+N/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/StaticAnalyzer/normal/i386/GameSquare.plist
+t1333547427
+s276
+
+N/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/StaticAnalyzer/normal/i386/GameViewController.plist
+t1333547427
+s276
+
+N/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/StaticAnalyzer/normal/i386/GridModel.plist
+t1333549257
+s276
+
+N/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/StaticAnalyzer/normal/i386/GridView.plist
+t1333549257
+s276
+
+N/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/StaticAnalyzer/normal/i386/MenuController.plist
+t1333547427
+s7463
+
+N/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/StaticAnalyzer/normal/i386/main.plist
+t1333547426
+s276
+
+N/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/main.m
+c000000004F72E44E0000000000000166
+t1332929614
+s358
+i<UIKit/UIKit.h>
+
 N/var/folders/Xg/XgkYQHg6H-iAzWm1PRTYeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demineur_Prefix-ficelqedtqskacdeprwxrypwrcup/Demineur_Prefix.pch.gch
 t1332930140
 s15453392
@@ -163,6 +413,14 @@ s15453392
 N/var/folders/Xg/XgkYQHg6H-iAzWm1PRTYeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demineur_Prefix-fxwgxqhswunllkdrebkcrjhgicyl/Demineur_Prefix.pch.pth
 t1332962806
 s2784048
+
+N/var/folders/Xg/XgkYQHg6H-iAzWm1PRTYeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demineur_Prefix-gkoqvfgtqpwvomgozrecyohluarz/Demineur_Prefix.pch.gch
+t1333549287
+s15453392
+
+N/var/folders/Xg/XgkYQHg6H-iAzWm1PRTYeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demineur_Prefix-hfzheorfrvcfzhgfidggvgoazppx/Demineur_Prefix.pch.pth
+t1333547426
+s2784128
 
 NDemineur-Info.plist
 c000000004F72E44E00000000000004D6
@@ -193,9 +451,73 @@ xAnalyze
 x/Users/antoine/Documents/MIAGE/iOS/Project/Demineur/main.m
 lSLF07#2@66"Analyze /Users/antoine/Documents/MIAGE/iOS/Project/Demineur/main.m354655606#354655606#0(0"0(0#0#58"/Users/antoine/Documents/MIAGE/iOS/Project/Demineur/main.m8613196608#2086"    cd /Users/antoine/Documents/MIAGE/iOS/Project/Demineur    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-generated-files.hmap -I/Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-own-target-headers.hmap -I/Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-all-target-headers.hmap -iquote /Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-project-headers.hmap -F/Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Debug-iphonesimulator -I/Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Debug-iphonesimulator/include -I/Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources/i386 -I/Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources -include /var/folders/Xg/XgkYQHg6H-iAzWm1PRTYeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demineur_Prefix-fxwgxqhswunllkdrebkcrjhgicyl/Demineur_Prefix.pch --analyze /Users/antoine/Documents/MIAGE/iOS/Project/Demineur/main.m -o /Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/StaticAnalyzer/normal/i386/main.plist0#
 
+CAnalyze /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/DemineurAppDelegate.m
+s355240226.835360
+e355240226.906885
+r1
+xAnalyze
+x/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/DemineurAppDelegate.m
+o/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/DemineurAppDelegate.m:29:51: warning: Potential leak of an object allocated on line 29 and stored into 'uiNavigationController'
+o         UINavigationController *uiNavigationController = [[UINavigationController alloc]initWithRootViewController:menuController];
+o                                                          ^
+o1 warning generated.
+lSLF07#2@109"Analyze /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/DemineurAppDelegate.m355240226#355240226#0(422"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/DemineurAppDelegate.m:29:51: warning: Potential leak of an object allocated on line 29 and stored into 'uiNavigationController'         UINavigationController *uiNavigationController = [[UINavigationController alloc]initWithRootViewController:menuController];                                                          ^1 warning generated.1(0@89"Potential leak of an object allocated on line 29 and stored into 'uiNavigationController'355240226#18446744073709551615#0#5(17@0"355240226#18446744073709551615#0#0(6@101"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/DemineurAppDelegate.m355222024#0#0#0#0#0"0(6@101"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/DemineurAppDelegate.m355222024#0#0#0#0#1(3@6@101"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/DemineurAppDelegate.m355222024#28#2#28#2#6@101"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/DemineurAppDelegate.m355222024#29#2#29#2#17@0"355240226#18446744073709551615#0#0(6@101"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/DemineurAppDelegate.m355222024#0#0#0#0#0"0(6@101"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/DemineurAppDelegate.m355222024#0#0#0#0#1(3@6@101"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/DemineurAppDelegate.m355222024#29#2#29#2#6@101"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/DemineurAppDelegate.m355222024#29#51#29#123#21@78"Method returns an Objective-C object with a +1 retain count (owning reference)355240226#18446744073709551615#0#0(6@101"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/DemineurAppDelegate.m355222024#29#51#0#0#0"1(6@101"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/DemineurAppDelegate.m355222024#29#51#29#123#78"Method returns an Objective-C object with a +1 retain count (owning reference)17@0"355240226#18446744073709551615#0#0(6@101"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/DemineurAppDelegate.m355222024#0#0#0#0#0"0(6@101"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/DemineurAppDelegate.m355222024#0#0#0#0#1(3@6@101"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/DemineurAppDelegate.m355222024#29#51#29#123#6@101"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/DemineurAppDelegate.m355222024#33#5#33#5#21@154"Object allocated on line 29 and stored into 'uiNavigationController' is no longer referenced after this point and has a retain count of +1 (object leaked)355240226#18446744073709551615#0#0(6@101"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/DemineurAppDelegate.m355222024#33#5#0#0#0"1(6@101"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/DemineurAppDelegate.m355222024#33#5#33#5#154"Object allocated on line 29 and stored into 'uiNavigationController' is no longer referenced after this point and has a retain count of +1 (object leaked)6@101"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/DemineurAppDelegate.m355222024#33#5#0#0#36"Memory (Core Foundation/Objective-C)0(4"Leak0#0#101"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/DemineurAppDelegate.m8611350816#2344"    cd /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-generated-files.hmap -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-own-target-headers.hmap -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-all-target-headers.hmap -iquote /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-project-headers.hmap -F/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/include -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources/i386 -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources -include /var/folders/Xg/XgkYQHg6H-iAzWm1PRTYeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demineur_Prefix-hfzheorfrvcfzhgfidggvgoazppx/Demineur_Prefix.pch --analyze /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/DemineurAppDelegate.m -o /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/StaticAnalyzer/normal/i386/DemineurAppDelegate.plist0#
+
+CAnalyze /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/GameSquare.m
+s355240227.619197
+e355240227.667874
+r1
+xAnalyze
+x/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/GameSquare.m
+lSLF07#2@100"Analyze /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/GameSquare.m355240227#355240227#0(0"0(0#0#92"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/GameSquare.m8601128800#2326"    cd /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-generated-files.hmap -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-own-target-headers.hmap -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-all-target-headers.hmap -iquote /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-project-headers.hmap -F/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/include -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources/i386 -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources -include /var/folders/Xg/XgkYQHg6H-iAzWm1PRTYeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demineur_Prefix-hfzheorfrvcfzhgfidggvgoazppx/Demineur_Prefix.pch --analyze /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/GameSquare.m -o /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/StaticAnalyzer/normal/i386/GameSquare.plist0#
+
+CAnalyze /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/GameViewController.m
+s355240227.235812
+e355240227.288849
+r1
+xAnalyze
+x/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/GameViewController.m
+lSLF07#2@108"Analyze /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/GameViewController.m355240227#355240227#0(0"0(0#0#100"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/GameViewController.m8612925440#2342"    cd /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-generated-files.hmap -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-own-target-headers.hmap -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-all-target-headers.hmap -iquote /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-project-headers.hmap -F/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/include -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources/i386 -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources -include /var/folders/Xg/XgkYQHg6H-iAzWm1PRTYeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demineur_Prefix-hfzheorfrvcfzhgfidggvgoazppx/Demineur_Prefix.pch --analyze /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/GameViewController.m -o /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/StaticAnalyzer/normal/i386/GameViewController.plist0#
+
+CAnalyze /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/GridModel.m
+s355242057.130290
+e355242057.449231
+r1
+xAnalyze
+x/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/GridModel.m
+lSLF07#2@99"Analyze /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/GridModel.m355242057#355242057#0(0"0(0#0#91"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/GridModel.m8613507616#2324"    cd /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-generated-files.hmap -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-own-target-headers.hmap -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-all-target-headers.hmap -iquote /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-project-headers.hmap -F/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/include -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources/i386 -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources -include /var/folders/Xg/XgkYQHg6H-iAzWm1PRTYeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demineur_Prefix-hfzheorfrvcfzhgfidggvgoazppx/Demineur_Prefix.pch --analyze /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/GridModel.m -o /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/StaticAnalyzer/normal/i386/GridModel.plist0#
+
+CAnalyze /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/GridView.m
+s355242057.449390
+e355242057.649502
+r1
+xAnalyze
+x/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/GridView.m
+lSLF07#2@98"Analyze /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/GridView.m355242057#355242057#0(0"0(0#0#90"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/GridView.m8612348864#2322"    cd /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-generated-files.hmap -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-own-target-headers.hmap -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-all-target-headers.hmap -iquote /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-project-headers.hmap -F/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/include -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources/i386 -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources -include /var/folders/Xg/XgkYQHg6H-iAzWm1PRTYeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demineur_Prefix-hfzheorfrvcfzhgfidggvgoazppx/Demineur_Prefix.pch --analyze /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/GridView.m -o /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/StaticAnalyzer/normal/i386/GridView.plist0#
+
+CAnalyze /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/MenuController.m
+s355240227.566099
+e355240227.619023
+r1
+xAnalyze
+x/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/MenuController.m
+o/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/MenuController.m:61:27:{61:74-61:84}: warning: Pass-by-value argument in message expression is undefined
+o         GameViewController *gc = [[GameViewController alloc] initWithDifficulty:difficulty];
+o                                  ^                                              ~~~~~~~~~~
+o1 warning generated.
+lSLF07#2@104"Analyze /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/MenuController.m355240227#355240227#0(392"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/MenuController.m:61:27:{61:74-61:84}: warning: Pass-by-value argument in message expression is undefined         GameViewController *gc = [[GameViewController alloc] initWithDifficulty:difficulty];                                  ^                                              ~~~~~~~~~~1 warning generated.1(0@57"Pass-by-value argument in message expression is undefined355240227#18446744073709551615#0#7(21@55"Variable 'difficulty' declared without an initial value355240227#18446744073709551615#0#0(6@96"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/MenuController.m355222345#46#2#0#0#0"1(6@96"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/MenuController.m355222345#46#2#46#29#55"Variable 'difficulty' declared without an initial value17@0"355240227#18446744073709551615#0#0(6@96"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/MenuController.m355222345#0#0#0#0#0"0(6@96"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/MenuController.m355222345#0#0#0#0#1(3@6@96"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/MenuController.m355222345#46#2#46#29#6@96"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/MenuController.m355222345#48#2#48#2#17@0"355240227#18446744073709551615#0#0(6@96"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/MenuController.m355222345#0#0#0#0#0"0(6@96"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/MenuController.m355222345#0#0#0#0#1(3@6@96"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/MenuController.m355222345#48#2#48#2#6@96"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/MenuController.m355222345#52#7#52#7#17@0"355240227#18446744073709551615#0#0(6@96"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/MenuController.m355222345#0#0#0#0#0"0(6@96"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/MenuController.m355222345#0#0#0#0#1(3@6@96"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/MenuController.m355222345#52#7#52#7#6@96"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/MenuController.m355222345#56#7#56#7#17@0"355240227#18446744073709551615#0#0(6@96"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/MenuController.m355222345#0#0#0#0#0"0(6@96"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/MenuController.m355222345#0#0#0#0#1(3@6@96"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/MenuController.m355222345#56#7#56#7#6@96"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/MenuController.m355222345#61#2#61#2#17@0"355240227#18446744073709551615#0#0(6@96"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/MenuController.m355222345#0#0#0#0#0"0(6@96"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/MenuController.m355222345#0#0#0#0#1(3@6@96"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/MenuController.m355222345#61#2#61#2#6@96"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/MenuController.m355222345#61#27#61#84#21@57"Pass-by-value argument in message expression is undefined355240227#18446744073709551615#0#0(6@96"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/MenuController.m355222345#61#27#0#0#0"1(6@96"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/MenuController.m355222345#61#74#61#83#57"Pass-by-value argument in message expression is undefined6@96"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/MenuController.m355222345#61#27#0#0#11"Logic error0(57"Pass-by-value argument in message expression is undefined0#0#96"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/MenuController.m8612866816#2334"    cd /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-generated-files.hmap -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-own-target-headers.hmap -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-all-target-headers.hmap -iquote /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-project-headers.hmap -F/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/include -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources/i386 -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources -include /var/folders/Xg/XgkYQHg6H-iAzWm1PRTYeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demineur_Prefix-hfzheorfrvcfzhgfidggvgoazppx/Demineur_Prefix.pch --analyze /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/MenuController.m -o /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/StaticAnalyzer/normal/i386/MenuController.plist0#
+
+CAnalyze /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/main.m
+s355240226.746911
+e355240226.835254
+r1
+xAnalyze
+x/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/main.m
+lSLF07#2@86"Analyze /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/main.m355240226#355240226#0(0"0(0#0#78"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/main.m8612796864#2306"    cd /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-generated-files.hmap -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-own-target-headers.hmap -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-all-target-headers.hmap -iquote /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-project-headers.hmap -F/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/include -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources/i386 -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources -include /var/folders/Xg/XgkYQHg6H-iAzWm1PRTYeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demineur_Prefix-hfzheorfrvcfzhgfidggvgoazppx/Demineur_Prefix.pch --analyze /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/main.m -o /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/StaticAnalyzer/normal/i386/main.plist0#
+
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies355219265#355219268#0(0"0(0#1#0"3343187568374212096#0"0#
+lSLF07#2@18"Check dependencies355242640#355242640#0(0"0(0#1#0"8617302336#0"0#
 
 CCompileC build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/DemineurAppDelegate.o /Users/antoine/Documents/MIAGE/iOS/Project/Demineur/Classes/DemineurAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s355159440.604842
@@ -210,6 +532,45 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@89"Compile /Users/antoine/Documents/MIAGE/iOS/Project/Demineur/Classes/DemineurAppDelegate.m355159440#355159440#0(0"0(0#0#81"/Users/antoine/Documents/MIAGE/iOS/Project/Demineur/Classes/DemineurAppDelegate.m8611047808#2115"    cd /Users/antoine/Documents/MIAGE/iOS/Project/Demineur    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-generated-files.hmap -I/Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-own-target-headers.hmap -I/Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-all-target-headers.hmap -iquote /Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-project-headers.hmap -F/Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Debug-iphonesimulator -I/Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Debug-iphonesimulator/include -I/Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources/i386 -I/Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources -include /var/folders/Xg/XgkYQHg6H-iAzWm1PRTYeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demineur_Prefix-ficelqedtqskacdeprwxrypwrcup/Demineur_Prefix.pch -c /Users/antoine/Documents/MIAGE/iOS/Project/Demineur/Classes/DemineurAppDelegate.m -o /Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/DemineurAppDelegate.o0#
 
+CCompileC build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/DemineurAppDelegate.o /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/DemineurAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s355242087.982837
+e355242088.092716
+r1
+xCompileC
+xbuild/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/DemineurAppDelegate.o
+x/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/DemineurAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@109"Compile /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/DemineurAppDelegate.m355242087#355242088#0(0"0(0#0#101"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/DemineurAppDelegate.m8613523200#2335"    cd /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-generated-files.hmap -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-own-target-headers.hmap -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-all-target-headers.hmap -iquote /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-project-headers.hmap -F/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/include -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources/i386 -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources -include /var/folders/Xg/XgkYQHg6H-iAzWm1PRTYeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demineur_Prefix-gkoqvfgtqpwvomgozrecyohluarz/Demineur_Prefix.pch -c /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/DemineurAppDelegate.m -o /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/DemineurAppDelegate.o0#
+
+CCompileC build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/GameSquare.o /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/GameSquare.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s355242088.536082
+e355242088.613443
+r1
+xCompileC
+xbuild/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/GameSquare.o
+x/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/GameSquare.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@100"Compile /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/GameSquare.m355242088#355242088#0(0"0(0#0#92"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/GameSquare.m8610631808#2317"    cd /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-generated-files.hmap -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-own-target-headers.hmap -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-all-target-headers.hmap -iquote /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-project-headers.hmap -F/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/include -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources/i386 -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources -include /var/folders/Xg/XgkYQHg6H-iAzWm1PRTYeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demineur_Prefix-gkoqvfgtqpwvomgozrecyohluarz/Demineur_Prefix.pch -c /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/GameSquare.m -o /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/GameSquare.o0#
+
+CCompileC build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/GameViewController.o /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/GameViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s355242088.196594
+e355242088.324385
+r1
+xCompileC
+xbuild/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/GameViewController.o
+x/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/GameViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@108"Compile /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/GameViewController.m355242088#355242088#0(0"0(0#0#100"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/GameViewController.m8613741536#2333"    cd /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-generated-files.hmap -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-own-target-headers.hmap -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-all-target-headers.hmap -iquote /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-project-headers.hmap -F/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/include -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources/i386 -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources -include /var/folders/Xg/XgkYQHg6H-iAzWm1PRTYeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demineur_Prefix-gkoqvfgtqpwvomgozrecyohluarz/Demineur_Prefix.pch -c /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/GameViewController.m -o /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/GameViewController.o0#
+
 CCompileC build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/GridModel.o /Users/antoine/Documents/MIAGE/iOS/Project/Demineur/Classes/GridModel.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s355159124.164818
 e355159124.325257
@@ -222,6 +583,47 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@79"Compile /Users/antoine/Documents/MIAGE/iOS/Project/Demineur/Classes/GridModel.m355159124#355159124#0(0"0(0#0#71"/Users/antoine/Documents/MIAGE/iOS/Project/Demineur/Classes/GridModel.m8612640736#2095"    cd /Users/antoine/Documents/MIAGE/iOS/Project/Demineur    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-generated-files.hmap -I/Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-own-target-headers.hmap -I/Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-all-target-headers.hmap -iquote /Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-project-headers.hmap -F/Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Debug-iphonesimulator -I/Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Debug-iphonesimulator/include -I/Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources/i386 -I/Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources -include /var/folders/Xg/XgkYQHg6H-iAzWm1PRTYeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demineur_Prefix-ficelqedtqskacdeprwxrypwrcup/Demineur_Prefix.pch -c /Users/antoine/Documents/MIAGE/iOS/Project/Demineur/Classes/GridModel.m -o /Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/GridModel.o0#
+
+CCompileC build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/GridModel.o /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/GridModel.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s355242088.092805
+e355242088.196338
+r1
+xCompileC
+xbuild/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/GridModel.o
+x/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/GridModel.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@99"Compile /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/GridModel.m355242088#355242088#0(0"0(0#0#91"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/GridModel.m8615810144#2315"    cd /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-generated-files.hmap -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-own-target-headers.hmap -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-all-target-headers.hmap -iquote /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-project-headers.hmap -F/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/include -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources/i386 -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources -include /var/folders/Xg/XgkYQHg6H-iAzWm1PRTYeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demineur_Prefix-gkoqvfgtqpwvomgozrecyohluarz/Demineur_Prefix.pch -c /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/GridModel.m -o /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/GridModel.o0#
+
+CCompileC build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/GridView.o /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/GridView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s355242638.322701
+e355242638.513922
+r1
+xCompileC
+xbuild/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/GridView.o
+x/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/GridView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@98"Compile /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/GridView.m355242638#355242638#0(0"0(0#0#90"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/GridView.m8612286368#2313"    cd /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-generated-files.hmap -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-own-target-headers.hmap -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-all-target-headers.hmap -iquote /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-project-headers.hmap -F/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/include -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources/i386 -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources -include /var/folders/Xg/XgkYQHg6H-iAzWm1PRTYeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demineur_Prefix-gkoqvfgtqpwvomgozrecyohluarz/Demineur_Prefix.pch -c /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/GridView.m -o /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/GridView.o0#
+
+CCompileC build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/MenuController.o /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/MenuController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s355242088.421414
+e355242088.535942
+r1
+xCompileC
+xbuild/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/MenuController.o
+x/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/MenuController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/MenuController.m: In function '-[MenuController startGamePressed:]':
+o/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/MenuController.m:61: warning: incompatible Objective-C types initializing 'struct GridModel *', expected 'struct GameViewController *'
+lSLF07#2@104"Compile /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/MenuController.m355242088#355242088#0(364"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/MenuController.m: In function '-[MenuController startGamePressed:]':/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/MenuController.m:61: warning: incompatible Objective-C types initializing 'struct GridModel *', expected 'struct GameViewController *'1(22@104"Incompatible Objective-C types initializing 'struct GridModel *', expected 'struct GameViewController *'355242088#149#215#0(6@96"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/MenuController.m355222345#61#0#61#0#61"incompatible Objective-C types initializing '*', expected '*'0(0#0#96"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/MenuController.m8613626048#2325"    cd /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-generated-files.hmap -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-own-target-headers.hmap -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-all-target-headers.hmap -iquote /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-project-headers.hmap -F/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/include -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources/i386 -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources -include /var/folders/Xg/XgkYQHg6H-iAzWm1PRTYeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demineur_Prefix-gkoqvfgtqpwvomgozrecyohluarz/Demineur_Prefix.pch -c /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/MenuController.m -o /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/MenuController.o0#
 
 CCompileC build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/TestGridModel.o /Users/antoine/Documents/MIAGE/iOS/Project/Demineur/Classes/TestGridModel.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s354724360.916403
@@ -255,6 +657,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@66"Compile /Users/antoine/Documents/MIAGE/iOS/Project/Demineur/main.m354622940#354622940#0(0"0(0#0#58"/Users/antoine/Documents/MIAGE/iOS/Project/Demineur/main.m8611297280#2077"    cd /Users/antoine/Documents/MIAGE/iOS/Project/Demineur    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-generated-files.hmap -I/Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-own-target-headers.hmap -I/Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-all-target-headers.hmap -iquote /Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-project-headers.hmap -F/Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Debug-iphonesimulator -I/Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Debug-iphonesimulator/include -I/Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources/i386 -I/Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources -include /var/folders/Xg/XgkYQHg6H-iAzWm1PRTYeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demineur_Prefix-ficelqedtqskacdeprwxrypwrcup/Demineur_Prefix.pch -c /Users/antoine/Documents/MIAGE/iOS/Project/Demineur/main.m -o /Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/main.o0#
 
+CCompileC build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/main.o /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s355242087.893046
+e355242087.982743
+r1
+xCompileC
+xbuild/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/main.o
+x/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/main.m355242087#355242087#0(0"0(0#0#78"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/main.m8615452224#2297"    cd /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-generated-files.hmap -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-own-target-headers.hmap -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-all-target-headers.hmap -iquote /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-project-headers.hmap -F/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/include -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources/i386 -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources -include /var/folders/Xg/XgkYQHg6H-iAzWm1PRTYeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demineur_Prefix-gkoqvfgtqpwvomgozrecyohluarz/Demineur_Prefix.pch -c /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/main.m -o /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/main.o0#
+
 CCompileXIB /Users/antoine/Documents/MIAGE/iOS/Project/Demineur/MainWindow.xib
 s354622939.077884
 e354622939.531837
@@ -262,6 +677,66 @@ r1
 xCompileXIB
 x/Users/antoine/Documents/MIAGE/iOS/Project/Demineur/MainWindow.xib
 lSLF07#2@25"CompileXIB MainWindow.xib354622939#354622939#0(0"0(0#0#66"/Users/antoine/Documents/MIAGE/iOS/Project/Demineur/MainWindow.xib8611062752#610"    cd /Users/antoine/Documents/MIAGE/iOS/Project/Demineur    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Debug-iphonesimulator/Demineur.app/MainWindow.nib /Users/antoine/Documents/MIAGE/iOS/Project/Demineur/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/GameViewController.xib
+s355242085.973677
+e355242086.501268
+r1
+xCompileXIB
+x/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/GameViewController.xib
+lSLF07#2@33"CompileXIB GameViewController.xib355242085#355242086#0(0"0(0#0#94"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/GameViewController.xib8613613088#686"    cd /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app/GameViewController.nib /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/GameViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/MainWindow.xib
+s355242085.411435
+e355242085.971773
+r1
+xCompileXIB
+x/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib355242085#355242085#0(0"0(0#0#86"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/MainWindow.xib8612510048#670"    cd /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app/MainWindow.nib /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/MenuController.xib
+s355242086.501372
+e355242087.154859
+r1
+xCompileXIB
+x/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/MenuController.xib
+lSLF07#2@29"CompileXIB MenuController.xib355242086#355242087#0(0"0(0#0#90"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/MenuController.xib8617709376#678"    cd /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app/MenuController.nib /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/MenuController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCpResource build/Debug-iphonesimulator/Demineur.app/case.png Classes/case.png
+s355242085.971870
+e355242085.980934
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Demineur.app/case.png
+xClasses/case.png
+lSLF07#2@21"Copy Classes/case.png355242085#355242085#0(0"0(0#0#88"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/case.png8613731776#574"    cd /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/case.png /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app0#
+
+CCpResource build/Debug-iphonesimulator/Demineur.app/caseBomb.png Classes/caseBomb.png
+s355242087.156166
+e355242087.168130
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Demineur.app/caseBomb.png
+xClasses/caseBomb.png
+lSLF07#2@25"Copy Classes/caseBomb.png355242087#355242087#0(0"0(0#0#92"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/caseBomb.png8609482592#578"    cd /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/caseBomb.png /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app0#
+
+CCpResource build/Debug-iphonesimulator/Demineur.app/caseFlag.png Classes/caseFlag.png
+s355242087.162036
+e355242087.174443
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Demineur.app/caseFlag.png
+xClasses/caseFlag.png
+lSLF07#2@25"Copy Classes/caseFlag.png355242087#355242087#0(0"0(0#0#92"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/caseFlag.png8617972768#578"    cd /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/caseFlag.png /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app0#
+
+CCpResource build/Debug-iphonesimulator/Demineur.app/caseOuverte.png Classes/caseOuverte.png
+s355242087.155002
+e355242087.167927
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Demineur.app/caseOuverte.png
+xClasses/caseOuverte.png
+lSLF07#2@28"Copy Classes/caseOuverte.png355242087#355242087#0(0"0(0#0#95"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/caseOuverte.png8613632544#581"    cd /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/caseOuverte.png /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app0#
 
 CGenerateDSYMFile /Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Debug-iphonesimulator/Demineur.app.dSYM /Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Debug-iphonesimulator/Demineur.app/Demineur
 s355159440.842479
@@ -271,6 +746,15 @@ xGenerateDSYMFile
 x/Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Debug-iphonesimulator/Demineur.app.dSYM
 x/Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Debug-iphonesimulator/Demineur.app/Demineur
 lSLF07#2@112"GenerateDSYMFile build/Debug-iphonesimulator/Demineur.app.dSYM build/Debug-iphonesimulator/Demineur.app/Demineur355159440#355159440#0(0"0(0#0#101"/Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Debug-iphonesimulator/Demineur.app/Demineur8611762432#425"    cd /Users/antoine/Documents/MIAGE/iOS/Project/Demineur    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Debug-iphonesimulator/Demineur.app/Demineur -o /Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Debug-iphonesimulator/Demineur.app.dSYM0#
+
+CGenerateDSYMFile /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app.dSYM /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app/Demineur
+s355242638.550861
+e355242638.592759
+r1
+xGenerateDSYMFile
+x/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app.dSYM
+x/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app/Demineur
+lSLF07#2@112"GenerateDSYMFile build/Debug-iphonesimulator/Demineur.app.dSYM build/Debug-iphonesimulator/Demineur.app/Demineur355242638#355242638#0(0"0(0#0#121"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app/Demineur8613499744#485"    cd /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app/Demineur -o /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app.dSYM0#
 
 CLd /Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Debug-iphonesimulator/Demineur.app/Demineur normal i386
 s355159440.797035
@@ -282,6 +766,16 @@ xnormal
 xi386
 lSLF07#2@106"Link /Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Debug-iphonesimulator/Demineur.app/Demineur355159440#355159440#0(0"0(0#0#0"8612138624#970"    cd /Users/antoine/Documents/MIAGE/iOS/Project/Demineur    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Debug-iphonesimulator -F/Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Debug-iphonesimulator -filelist /Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/Demineur.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Debug-iphonesimulator/Demineur.app/Demineur0#
 
+CLd /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app/Demineur normal i386
+s355242638.514201
+e355242638.550706
+r1
+xLd
+x/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app/Demineur
+xnormal
+xi386
+lSLF07#2@126"Link /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app/Demineur355242638#355242638#0(0"0(0#0#0"8613900320#1070"    cd /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator -F/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator -filelist /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/Demineur.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app/Demineur0#
+
 CProcessInfoPlistFile /Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Debug-iphonesimulator/Demineur.app/Info.plist Demineur-Info.plist
 s354622939.047742
 e354622939.077803
@@ -290,6 +784,15 @@ xProcessInfoPlistFile
 x/Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Debug-iphonesimulator/Demineur.app/Info.plist
 xDemineur-Info.plist
 lSLF07#2@27"Process Demineur-Info.plist354622939#354622939#0(0"0(0#0#71"/Users/antoine/Documents/MIAGE/iOS/Project/Demineur/Demineur-Info.plist8611537184#521"    cd /Users/antoine/Documents/MIAGE/iOS/Project/Demineur    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Demineur-Info.plist -genpkginfo /Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Debug-iphonesimulator/Demineur.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Debug-iphonesimulator/Demineur.app/Info.plist0#
+
+CProcessInfoPlistFile /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app/Info.plist Demineur-Info.plist
+s355242085.397703
+e355242085.411435
+r1
+xProcessInfoPlistFile
+x/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app/Info.plist
+xDemineur-Info.plist
+lSLF07#2@27"Process Demineur-Info.plist355242085#355242085#0(0"0(0#0#91"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Demineur-Info.plist8613775584#581"    cd /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Demineur-Info.plist -genpkginfo /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app/Info.plist0#
 
 CProcessPCH /var/folders/Xg/XgkYQHg6H-iAzWm1PRTYeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demineur_Prefix-ficelqedtqskacdeprwxrypwrcup/Demineur_Prefix.pch.gch Demineur_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 s354622939.532130
@@ -317,6 +820,32 @@ xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.analyzer
 lSLF07#2@30"Precompile Demineur_Prefix.pch354655606#354655606#0(0"0(0#0#71"/Users/antoine/Documents/MIAGE/iOS/Project/Demineur/Demineur_Prefix.pch8611944928#1946"    cd /Users/antoine/Documents/MIAGE/iOS/Project/Demineur    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-generated-files.hmap -I/Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-own-target-headers.hmap -I/Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-all-target-headers.hmap -iquote /Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-project-headers.hmap -F/Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Debug-iphonesimulator -I/Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Debug-iphonesimulator/include -I/Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources/i386 -I/Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources -c /Users/antoine/Documents/MIAGE/iOS/Project/Demineur/Demineur_Prefix.pch -o /var/folders/Xg/XgkYQHg6H-iAzWm1PRTYeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demineur_Prefix-fxwgxqhswunllkdrebkcrjhgicyl/Demineur_Prefix.pch.pth0#
 
+CProcessPCH /var/folders/Xg/XgkYQHg6H-iAzWm1PRTYeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demineur_Prefix-gkoqvfgtqpwvomgozrecyohluarz/Demineur_Prefix.pch.gch Demineur_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s355242087.174597
+e355242087.892952
+r1
+xProcessPCH
+x/var/folders/Xg/XgkYQHg6H-iAzWm1PRTYeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demineur_Prefix-gkoqvfgtqpwvomgozrecyohluarz/Demineur_Prefix.pch.gch
+xDemineur_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile Demineur_Prefix.pch355242087#355242087#0(0"0(0#0#91"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Demineur_Prefix.pch8610210176#2155"    cd /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-generated-files.hmap -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-own-target-headers.hmap -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-all-target-headers.hmap -iquote /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-project-headers.hmap -F/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/include -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources/i386 -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources -c /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Demineur_Prefix.pch -o /var/folders/Xg/XgkYQHg6H-iAzWm1PRTYeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demineur_Prefix-gkoqvfgtqpwvomgozrecyohluarz/Demineur_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Xg/XgkYQHg6H-iAzWm1PRTYeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demineur_Prefix-hfzheorfrvcfzhgfidggvgoazppx/Demineur_Prefix.pch.pth Demineur_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+s355240226.078255
+e355240226.481510
+r1
+xProcessPCH
+x/var/folders/Xg/XgkYQHg6H-iAzWm1PRTYeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demineur_Prefix-hfzheorfrvcfzhgfidggvgoazppx/Demineur_Prefix.pch.pth
+xDemineur_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.analyzer
+lSLF07#2@30"Precompile Demineur_Prefix.pch355240226#355240226#0(0"0(0#0#91"/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Demineur_Prefix.pch8610589120#2146"    cd /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-generated-files.hmap -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-own-target-headers.hmap -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-all-target-headers.hmap -iquote /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-project-headers.hmap -F/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/include -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources/i386 -I/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources -c /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Demineur_Prefix.pch -o /var/folders/Xg/XgkYQHg6H-iAzWm1PRTYeU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demineur_Prefix-hfzheorfrvcfzhgfidggvgoazppx/Demineur_Prefix.pch.pth0#
+
 CTouch /Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Debug-iphonesimulator/Demineur.app
 s355159440.866953
 e355159440.869681
@@ -324,4 +853,12 @@ r1
 xTouch
 x/Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Debug-iphonesimulator/Demineur.app
 lSLF07#2@98"Touch /Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Debug-iphonesimulator/Demineur.app355159440#355159440#0(0"0(0#0#0"8611412352#305"    cd /Users/antoine/Documents/MIAGE/iOS/Project/Demineur    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/antoine/Documents/MIAGE/iOS/Project/Demineur/build/Debug-iphonesimulator/Demineur.app0#
+
+CTouch /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app
+s355242638.592843
+e355242638.597029
+r1
+xTouch
+x/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app
+lSLF07#2@118"Touch /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app355242638#355242638#0(0"0(0#0#0"8611932480#345"    cd /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app0#
 
