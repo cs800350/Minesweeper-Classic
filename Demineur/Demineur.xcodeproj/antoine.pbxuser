@@ -1,0 +1,179 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* DemineurAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1097, 340}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 326}";
+		};
+	};
+	1D3623250D0F684500981E51 /* DemineurAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1690}}";
+			sepNavSelRange = "{2666, 0}";
+			sepNavVisRange = "{2259, 499}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Demineur */ = {
+		activeExec = 0;
+		executables = (
+			717A6A0215231BCE00CC4B18 /* Demineur */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 717A6A0215231BCE00CC4B18 /* Demineur */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Demineur */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Demineur */,
+		);
+		codeSenseManager = 717A6A1515231BE300CC4B18 /* Code sense */;
+		executables = (
+			717A6A0215231BCE00CC4B18 /* Demineur */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = 1;
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					919,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 355219245;
+			PBXWorkspaceStateSaveDate = 355219245;
+		};
+		perUserProjectItems = {
+			7179AC10152B4CF5004A655A = 7179AC10152B4CF5004A655A /* PBXTextBookmark */;
+			7179AC11152B4CF5004A655A = 7179AC11152B4CF5004A655A /* PBXTextBookmark */;
+			7179AC23152B4DD0004A655A = 7179AC23152B4DD0004A655A /* PBXTextBookmark */;
+			71874CF41524ADCC00B86C02 = 71874CF41524ADCC00B86C02 /* PBXTextBookmark */;
+			71874D0E1524B02100B86C02 = 71874D0E1524B02100B86C02 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 717A6A1415231BE300CC4B18 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	7179AC10152B4CF5004A655A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 717A6A1715231C2700CC4B18 /* GridModel.m */;
+		name = "GridModel.m: 167";
+		rLen = 0;
+		rLoc = 3095;
+		rType = 0;
+		vrLen = 535;
+		vrLoc = 2579;
+	};
+	7179AC11152B4CF5004A655A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* DemineurAppDelegate.m */;
+		name = "DemineurAppDelegate.m: 107";
+		rLen = 0;
+		rLoc = 2613;
+		rType = 0;
+		vrLen = 308;
+		vrLoc = 2505;
+	};
+	7179AC23152B4DD0004A655A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* DemineurAppDelegate.m */;
+		name = "DemineurAppDelegate.m: 110";
+		rLen = 0;
+		rLoc = 2666;
+		rType = 0;
+		vrLen = 499;
+		vrLoc = 2259;
+	};
+	717A6A0215231BCE00CC4B18 /* Demineur */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Demineur;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	717A6A1415231BE300CC4B18 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	717A6A1515231BE300CC4B18 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	717A6A1615231C2700CC4B18 /* GridModel.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1097, 1014}}";
+			sepNavSelRange = "{168, 0}";
+			sepNavVisRange = "{3, 532}";
+			sepNavWindowFrame = "{{15, 78}, {750, 668}}";
+		};
+	};
+	717A6A1715231C2700CC4B18 /* GridModel.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {530, 4056}}";
+			sepNavSelRange = "{2654, 0}";
+			sepNavVisRange = "{2526, 305}";
+			sepNavWindowFrame = "{{15, 78}, {750, 668}}";
+		};
+	};
+	71874CF41524ADCC00B86C02 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* DemineurAppDelegate.h */;
+		name = "DemineurAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 326;
+		vrLoc = 0;
+	};
+	71874D0E1524B02100B86C02 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 717A6A1615231C2700CC4B18 /* GridModel.h */;
+		name = "GridModel.h: 10";
+		rLen = 0;
+		rLoc = 168;
+		rType = 0;
+		vrLen = 532;
+		vrLoc = 3;
+	};
+}
