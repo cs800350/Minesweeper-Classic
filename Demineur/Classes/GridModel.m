@@ -21,6 +21,7 @@
 @synthesize gridFlags;
 @synthesize gridState;
 @synthesize currentNbFlag;
+@synthesize currentNbDiscloses;
 
 
 //Constructors implementation and dealloc
@@ -140,6 +141,7 @@
 			if(self.gridState[x][y] == 0)
 			{
 				self.gridState[x][y] = 1;
+				self.currentNbDiscloses += 1;
 				
 				//
 				//
@@ -219,6 +221,17 @@
 			self.gridState[i][j]=1;
 		}
 	}
+}
+
+-(bool)didWin
+{
+	int noMineSquares = gridWidth*gridHeigth-self.nbMines;
+	if(self.currentNbDiscloses == noMineSquares)
+	{
+		return YES;
+	}
+	
+	return NO;
 }
 
 -(int)getCellState:(int)x withY:(int)y

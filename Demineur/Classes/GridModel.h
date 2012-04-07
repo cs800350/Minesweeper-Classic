@@ -34,6 +34,7 @@ enum difficulties {BEGINER, MEDIUM, HARD};
 	int gridWidth;
 	int gridHeigth;
 	int currentNbFlag;
+	int currentNbDiscloses;
 	
 	//Location of mines and number of nears mines in each square
 	//
@@ -53,6 +54,7 @@ enum difficulties {BEGINER, MEDIUM, HARD};
 @property int gridWidth;
 @property int gridHeigth;
 @property int currentNbFlag;
+@property int currentNbDiscloses;
 @property int **gridValues;
 @property int **gridFlags;
 @property int **gridState;
@@ -71,6 +73,7 @@ enum difficulties {BEGINER, MEDIUM, HARD};
 -(bool)removeFlag:(int)x withY:(int)y;
 -(int)getCellState:(int)x withY:(int)y;
 -(void)discloseGrid;
+-(bool)didWin;
 
 //Class methods
 //

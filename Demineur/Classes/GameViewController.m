@@ -52,17 +52,29 @@
 	
 	//Mine -> game finished
 	//
-	if(cellValue==-1)
+	if(cellValue==-1) // Defeat
 	{
 		[self.gridBrain discloseGrid];
 		self.gameFinished = YES;
 		self.victory = NO;
 		
-		UIAlertView *finishBox = [[UIAlertView alloc] initWithTitle:@"Fin de partie" message:@"Vous avez perdu !"
+		UIAlertView *finishBox = [[UIAlertView alloc] initWithTitle:@"Défaite" message:@"Vous avez perdu !"
 													   delegate:self cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
 		[finishBox show];
 		[finishBox release];	
 	}
+	else if([self.gridBrain didWin]) // Victory
+	{
+		[self.gridBrain discloseGrid];
+		self.gameFinished = YES;
+		self.victory = YES;
+		
+		UIAlertView *finishBox = [[UIAlertView alloc] initWithTitle:@"Victoire" message:@"Vous avez gagné !"
+														   delegate:self cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
+		[finishBox show];
+		[finishBox release];	
+	}
+
 	
 	[self.gridView setNeedsDisplay];
 }
