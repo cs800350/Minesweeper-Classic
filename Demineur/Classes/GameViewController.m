@@ -43,6 +43,8 @@
 
 - (void)discloseSquare:(UITapGestureRecognizer *)sender
 {
+	if(self.gameFinished) return;
+		
 	GameSquare *gs = (GameSquare*)sender.view;
 	[self.gridBrain discloseCell:gs.coordX withY:gs.coordY];
 	
@@ -53,8 +55,13 @@
 	if(cellValue==-1)
 	{
 		[self.gridBrain discloseGrid];
-		self.gameFinished = TRUE;
-		self.victory = FALSE;
+		self.gameFinished = YES;
+		self.victory = NO;
+		
+		UIAlertView *finishBox = [[UIAlertView alloc] initWithTitle:@"Fin de partie" message:@"Vous avez perdu !"
+													   delegate:self cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
+		[finishBox show];
+		[finishBox release];	
 	}
 	
 	[self.gridView setNeedsDisplay];

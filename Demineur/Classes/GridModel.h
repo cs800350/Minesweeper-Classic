@@ -35,7 +35,7 @@ enum difficulties {BEGINER, MEDIUM, HARD};
 	int gridHeigth;
 	int currentNbFlag;
 	
-	//Location of mines and number of nears mines in each cases
+	//Location of mines and number of nears mines in each square
 	//
 	int **gridValues;
 	
