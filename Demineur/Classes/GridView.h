@@ -22,6 +22,7 @@
 - (int)getGridWidth;
 - (int)getGridHeigth;
 - (void)discloseSquare:(UITapGestureRecognizer *)sender;
+- (void)toggleFlag:(UITapGestureRecognizer *)sender;
 
 @end
 

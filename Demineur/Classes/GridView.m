@@ -143,9 +143,16 @@
 			
 			//Add gesture recognizer
 			//
-			UITapGestureRecognizer *uiTapGestureRecognizer = [[UITapGestureRecognizer alloc]initWithTarget:self.gridDataSource action:@selector(discloseSquare:)];
+			UITapGestureRecognizer *uiTapGestureRecognizer = [[UITapGestureRecognizer alloc]initWithTarget:self.gridDataSource 
+																									action:@selector(discloseSquare:)];
 			[gameSquare addGestureRecognizer:uiTapGestureRecognizer];
 			[uiTapGestureRecognizer release];
+			
+			UILongPressGestureRecognizer *uILongPressGestureRecognizer = [[UILongPressGestureRecognizer alloc]initWithTarget:self.gridDataSource 
+																													  action:@selector(toggleFlag:)];
+			uILongPressGestureRecognizer.minimumPressDuration = 0.5;
+			[gameSquare addGestureRecognizer:uILongPressGestureRecognizer];
+			[uILongPressGestureRecognizer release];
 			
 			// Ajouter le bouton à la vue
 			[self addSubview:gameSquare];

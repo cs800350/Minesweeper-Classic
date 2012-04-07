@@ -138,7 +138,7 @@
 	{
 		if (y > -1 && y < self.gridHeigth) 
 		{
-			if(self.gridState[x][y] == 0)
+			if(self.gridState[x][y] == 0 && self.gridFlags[x][y]==0)
 			{
 				self.gridState[x][y] = 1;
 				self.currentNbDiscloses += 1;

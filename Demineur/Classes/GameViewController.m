@@ -46,6 +46,7 @@
 	if(self.gameFinished) return;
 		
 	GameSquare *gs = (GameSquare*)sender.view;
+	if([self hasFlag:gs.coordX withY:gs.coordY]) return;
 	[self.gridBrain discloseCell:gs.coordX withY:gs.coordY];
 	
 	int cellValue = [self.gridBrain getCellValue:gs.coordX withY:gs.coordY];
@@ -76,6 +77,16 @@
 	}
 
 	
+	[self.gridView setNeedsDisplay];
+}
+
+- (void)toggleFlag:(UITapGestureRecognizer *)sender
+{
+	if(self.gameFinished || sender.state==UIGestureRecognizerStateEnded || sender.state==UIGestureRecognizerStateChanged) return;
+	
+	GameSquare *gs = (GameSquare*)sender.view;
+	int hasFlag = self.gridBrain.gridFlags[gs.coordX][gs.coordY];
+	self.gridBrain.gridFlags[gs.coordX][gs.coordY] = 1 - hasFlag;
 	[self.gridView setNeedsDisplay];
 }
 
