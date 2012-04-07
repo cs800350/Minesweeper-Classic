@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19797A2015308ABB00C7C4B3 /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19797A1F15308ABB00C7C4B3 /* GameViewController.xib */; };
+		19797A2415308AED00C7C4B3 /* MenuController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19797A2315308AED00C7C4B3 /* MenuController.xib */; };
 		1D3623260D0F684500981E51 /* DemineurAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* DemineurAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -21,13 +23,13 @@
 		7183F1EC152C409A000D068B /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7183F1E5152C409A000D068B /* GameViewController.m */; };
 		7183F1ED152C409A000D068B /* GridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7183F1E7152C409A000D068B /* GridView.m */; };
 		7183F1EE152C409A000D068B /* MenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7183F1E9152C409A000D068B /* MenuController.m */; };
-		7183F1F1152C40C1000D068B /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7183F1EF152C40C1000D068B /* GameViewController.xib */; };
-		7183F1F2152C40C1000D068B /* MenuController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7183F1F0152C40C1000D068B /* MenuController.xib */; };
 		7183F315152C5F2F000D068B /* GameSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = 7183F314152C5F2F000D068B /* GameSquare.m */; };
 		7183F39B152C6913000D068B /* caseOuverte.png in Resources */ = {isa = PBXBuildFile; fileRef = 7183F39A152C6913000D068B /* caseOuverte.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19797A1F15308ABB00C7C4B3 /* GameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameViewController.xib; sourceTree = "<group>"; };
+		19797A2315308AED00C7C4B3 /* MenuController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuController.xib; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* DemineurAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemineurAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* DemineurAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemineurAppDelegate.m; sourceTree = "<group>"; };
@@ -49,8 +51,6 @@
 		7183F1E7152C409A000D068B /* GridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridView.m; sourceTree = "<group>"; };
 		7183F1E8152C409A000D068B /* MenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuController.h; sourceTree = "<group>"; };
 		7183F1E9152C409A000D068B /* MenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuController.m; sourceTree = "<group>"; };
-		7183F1EF152C40C1000D068B /* GameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameViewController.xib; sourceTree = "<group>"; };
-		7183F1F0152C40C1000D068B /* MenuController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuController.xib; sourceTree = "<group>"; };
 		7183F313152C5F2F000D068B /* GameSquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameSquare.h; sourceTree = "<group>"; };
 		7183F314152C5F2F000D068B /* GameSquare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameSquare.m; sourceTree = "<group>"; };
 		7183F39A152C6913000D068B /* caseOuverte.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = caseOuverte.png; sourceTree = "<group>"; };
@@ -126,8 +126,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				7183F1EF152C40C1000D068B /* GameViewController.xib */,
-				7183F1F0152C40C1000D068B /* MenuController.xib */,
+				19797A2315308AED00C7C4B3 /* MenuController.xib */,
+				19797A1F15308ABB00C7C4B3 /* GameViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* Demineur-Info.plist */,
 			);
@@ -204,12 +204,12 @@
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				7183F1EA152C409A000D068B /* case.png in Resources */,
-				7183F1F1152C40C1000D068B /* GameViewController.xib in Resources */,
-				7183F1F2152C40C1000D068B /* MenuController.xib in Resources */,
 				7183F39B152C6913000D068B /* caseOuverte.png in Resources */,
 				7181E8EC152C8323002D5FE5 /* caseBomb.png in Resources */,
 				7181E8ED152C8323002D5FE5 /* caseFlag.png in Resources */,
 				717D0DCE1530863C00FE1156 /* menuBackground.png in Resources */,
+				19797A2015308ABB00C7C4B3 /* GameViewController.xib in Resources */,
+				19797A2415308AED00C7C4B3 /* MenuController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
