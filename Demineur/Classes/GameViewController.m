@@ -18,6 +18,8 @@
 
 @synthesize gridBrain;
 @synthesize gridView;
+@synthesize gameFinished;
+@synthesize victory;
 
 - (id)initWithDifficulty:(enum difficulties)difficulty 
 {
@@ -43,6 +45,18 @@
 {
 	GameSquare *gs = (GameSquare*)sender.view;
 	[self.gridBrain discloseCell:gs.coordX withY:gs.coordY];
+	
+	int cellValue = [self.gridBrain getCellValue:gs.coordX withY:gs.coordY];
+	
+	//Mine -> game finished
+	//
+	if(cellValue==-1)
+	{
+		[self.gridBrain discloseGrid];
+		self.gameFinished = TRUE;
+		self.victory = FALSE;
+	}
+	
 	[self.gridView setNeedsDisplay];
 }
 

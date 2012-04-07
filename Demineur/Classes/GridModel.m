@@ -210,6 +210,17 @@
 	return false;
 }
 
+-(void)discloseGrid
+{
+	for (int i=0; i<self.gridWidth; i++) 
+	{
+		for (int j=0; j<self.gridHeigth; j++)
+		{
+			self.gridState[i][j]=1;
+		}
+	}
+}
+
 -(int)getCellState:(int)x withY:(int)y
 {
 	if (x > -1 && x < self.gridWidth) 

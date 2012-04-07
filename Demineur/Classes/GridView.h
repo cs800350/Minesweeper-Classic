@@ -34,9 +34,7 @@
 	UIColor *caseFermee;
 	UIColor *caseBombe;
 	UIColor *caseFlag;
-	
-	NSArray *valuesColors;
-	
+	NSArray *valuesColors;	
 }
 
 @property (assign)id<GridDataSource> gridDataSource;

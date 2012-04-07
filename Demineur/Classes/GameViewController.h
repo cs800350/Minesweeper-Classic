@@ -17,10 +17,16 @@
 @private
 	GridModel *gridBrain;
 	GridView *gridView;
+	
+	bool gameFinished;
+	bool victory;
 }
 
 @property (retain) GridModel *gridBrain;
 @property (retain) GridView *gridView;
+
+@property bool gameFinished;
+@property bool victory;
 
 //Constructors
 //
