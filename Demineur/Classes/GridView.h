@@ -9,6 +9,10 @@
 #import <UIKit/UIKit.h>
 #import "GameSquare.h"
 
+#define CELL_WIDTH 45 ;
+#define CELL_HEIGTH 45 ;
+
+
 @protocol GridDataSource
 
 @required
@@ -26,8 +30,21 @@
 	
 @private id<GridDataSource> gridDataSource;
 	
+	UIColor *caseOuverte;
+	UIColor *caseFermee;
+	UIColor *caseBombe;
+	UIColor *caseFlag;
+	
+	NSArray *valuesColors;
+	
 }
 
 @property (assign)id<GridDataSource> gridDataSource;
+
+@property (retain)UIColor *caseOuverte;
+@property (retain)UIColor *caseFermee;
+@property (retain)UIColor *caseBombe;
+@property (retain)UIColor *caseFlag;
+@property (retain)NSArray *valuesColors;
 
 @end

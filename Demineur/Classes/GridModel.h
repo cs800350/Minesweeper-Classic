@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 #define WIDTH_MAX 16 ;
-#define HEIGTH_MAX 30 ;
+#define HEIGTH_MAX 22 ;
 
 #define WIDTH_BEGINER 9 ;
 #define HEIGTH_BEGINER 9 ;
@@ -19,9 +19,9 @@
 #define HEIGTH_MEDIUM 16 ;
 #define NBMINES_MEDIUM 40 ;
 
-#define WIDTH_HARD 16 ;
-#define HEIGTH_HARD 30 ;
-#define NBMINES_HARD 99 ;
+#define WIDTH_HARD 17 ;
+#define HEIGTH_HARD 21 ;
+#define NBMINES_HARD 70;
 
 enum difficulties {BEGINER, MEDIUM, HARD};
 
@@ -33,6 +33,7 @@ enum difficulties {BEGINER, MEDIUM, HARD};
 	int nbMines;
 	int gridWidth;
 	int gridHeigth;
+	int currentNbFlag;
 	
 	//Location of mines and number of nears mines in each cases
 	//
@@ -51,6 +52,7 @@ enum difficulties {BEGINER, MEDIUM, HARD};
 @property int nbMines;
 @property int gridWidth;
 @property int gridHeigth;
+@property int currentNbFlag;
 @property int **gridValues;
 @property int **gridFlags;
 @property int **gridState;

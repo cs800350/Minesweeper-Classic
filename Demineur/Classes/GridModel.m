@@ -20,6 +20,7 @@
 @synthesize gridValues;
 @synthesize gridFlags;
 @synthesize gridState;
+@synthesize currentNbFlag;
 
 
 //Constructors implementation and dealloc
@@ -180,6 +181,7 @@
 			if(self.gridValues[x][y] == 0)
 			{
 				self.gridValues[x][y] = 1;
+				self.currentNbFlag = self.currentNbFlag + 1;
 				return true;
 			}
 			return false;
@@ -198,6 +200,7 @@
 			if(self.gridValues[x][y] == 1)
 			{
 				self.gridValues[x][y] = 0;
+				self.currentNbFlag = self.currentNbFlag - 1;
 				return true;
 			}
 			return false;

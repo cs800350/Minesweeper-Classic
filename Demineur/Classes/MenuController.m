@@ -53,7 +53,7 @@
 	{
 		difficulty = MEDIUM;
 	}
-	else if([sender.titleLabel.text isEqual:@"Avance"]) 
+	else if([sender.titleLabel.text isEqual:@"Avancé"]) 
 	{
 		difficulty = HARD;
 	}
