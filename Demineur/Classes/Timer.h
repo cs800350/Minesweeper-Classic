@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#define MAX_TIME 999;
 
 @interface Timer : NSObject {
 @private

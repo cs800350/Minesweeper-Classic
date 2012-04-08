@@ -32,10 +32,16 @@
 		[gridBrain release];
 		
 		self.timer = [[Timer alloc] init];
+		[NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(displayTime) userInfo:nil repeats:YES];
 		[timer start];
 		[timer release];
     }
     return self;
+}
+
+-(void)displayTime
+{
+	self.title = [NSString stringWithFormat:@"%d",timer.currentTime];
 }
 
 - (void)toggleFlag:(int)x withY:(int)y
@@ -162,12 +168,8 @@
 	
 	// Add the flag button on the navigation bar
 	UIImage *flagmodeImage = [UIImage imageNamed:@"caseFlag.png"];
-	
-	// create the button and assign the image
 	UIButton *flagButton = [UIButton buttonWithType:UIButtonTypeCustom];
 	[flagButton setImage:flagmodeImage forState:UIControlStateNormal];
-	
-	// set the frame of the button to the size of the image (see note below)
 	flagButton.frame = CGRectMake(0, 0, flagmodeImage.size.width, flagmodeImage.size.height);
 	[flagButton addTarget:self action:@selector(setFlagMode) forControlEvents:UIControlEventTouchUpInside];
 	UIBarButtonItem *customBarItem = [[UIBarButtonItem alloc] initWithCustomView:flagButton];

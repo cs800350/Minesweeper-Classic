@@ -8,7 +8,6 @@
 
 #import "Timer.h"
 
-
 @implementation Timer
 
 @synthesize timer;
@@ -30,7 +29,11 @@
 
 -(int)secondsElapsed
 {
-    currentTime++;
+	int maxTime = MAX_TIME;
+	if(currentTime<maxTime)
+	{
+		currentTime++;
+	}
 	NSLog(@"%d", currentTime);
 	
 	return currentTime;

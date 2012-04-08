@@ -328,7 +328,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>19812388153127E600921C02</string>
+										<string>198123E31531327900921C02</string>
 										<key>history</key>
 										<array>
 											<string>1981211C1530DE5400921C02</string>
@@ -339,19 +339,20 @@
 											<string>198121D31530F40100921C02</string>
 											<string>198121ED1530F55000921C02</string>
 											<string>198122461530FC6000921C02</string>
-											<string>198122AF1531124B00921C02</string>
-											<string>198122B11531124B00921C02</string>
 											<string>198122FF153115E400921C02</string>
-											<string>1981230B153116A700921C02</string>
-											<string>1981237B1531272900921C02</string>
-											<string>1981237C1531272900921C02</string>
-											<string>1981237D1531272900921C02</string>
-											<string>1981237E1531272900921C02</string>
-											<string>1981237F1531272900921C02</string>
 											<string>198123801531272900921C02</string>
 											<string>198123811531272900921C02</string>
-											<string>198123821531272900921C02</string>
-											<string>198123831531272900921C02</string>
+											<string>198123B415312E4D00921C02</string>
+											<string>198123B515312E4D00921C02</string>
+											<string>198123B815312E4D00921C02</string>
+											<string>198123CB15312ECB00921C02</string>
+											<string>198123CC15312ECB00921C02</string>
+											<string>198123CD15312ECB00921C02</string>
+											<string>198123D6153131C700921C02</string>
+											<string>198123D7153131C700921C02</string>
+											<string>198123D8153131C700921C02</string>
+											<string>198123D9153131C700921C02</string>
+											<string>198123CA15312ECB00921C02</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -549,12 +550,12 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>19812389153127E600921C02</string>
+		<string>198123E41531327900921C02</string>
 		<string>198121B31530F31200921C02</string>
 		<string>198121AC1530F2DB00921C02</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>197979C11530886000C7C4B3</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/adminuser/Documents/Minesweeper-Classic/Demineur/Demineur.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -579,7 +580,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>GameViewController.m</string>
+								<string>Timer.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -906,7 +907,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {650, 209}}</string>
 								<key>RubberWindowFrame</key>
-								<string>340 532 650 250 0 0 1920 1058 </string>
+								<string>1683 681 650 250 0 0 1920 1058 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXDebugCLIModule</string>
@@ -935,11 +936,11 @@
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.consoleV3</string>
 			<key>WindowString</key>
-			<string>340 532 650 250 0 0 1920 1058 </string>
+			<string>1683 681 650 250 0 0 1920 1058 </string>
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>Identifier</key>
