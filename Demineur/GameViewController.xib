@@ -69,7 +69,6 @@
 								<int key="NSID">2</int>
 							</object>
 						</object>
-						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 					</object>
 				</object>

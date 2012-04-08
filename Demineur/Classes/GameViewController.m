@@ -31,10 +31,11 @@
 		self.gridBrain = [[GridModel alloc] initWithDifficulty:difficulty];
 		[gridBrain release];
 		
+		// Start the timer
 		self.timer = [[Timer alloc] init];
-		[NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(displayTime) userInfo:nil repeats:YES];
 		[timer start];
 		[timer release];
+		[NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(displayTime) userInfo:nil repeats:YES];
     }
     return self;
 }
