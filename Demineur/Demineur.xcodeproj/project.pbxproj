@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		19797A2015308ABB00C7C4B3 /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19797A1F15308ABB00C7C4B3 /* GameViewController.xib */; };
 		19797A2415308AED00C7C4B3 /* MenuController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19797A2315308AED00C7C4B3 /* MenuController.xib */; };
+		1981227715310B7800921C02 /* Timer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1981227615310B7800921C02 /* Timer.m */; };
 		1D3623260D0F684500981E51 /* DemineurAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* DemineurAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -30,6 +31,8 @@
 /* Begin PBXFileReference section */
 		19797A1F15308ABB00C7C4B3 /* GameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameViewController.xib; sourceTree = "<group>"; };
 		19797A2315308AED00C7C4B3 /* MenuController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuController.xib; sourceTree = "<group>"; };
+		1981227515310B7800921C02 /* Timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timer.h; sourceTree = "<group>"; };
+		1981227615310B7800921C02 /* Timer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Timer.m; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* DemineurAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemineurAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* DemineurAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemineurAppDelegate.m; sourceTree = "<group>"; };
@@ -149,6 +152,8 @@
 			children = (
 				717A6A1615231C2700CC4B18 /* GridModel.h */,
 				717A6A1715231C2700CC4B18 /* GridModel.m */,
+				1981227515310B7800921C02 /* Timer.h */,
+				1981227615310B7800921C02 /* Timer.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -227,6 +232,7 @@
 				7183F1ED152C409A000D068B /* GridView.m in Sources */,
 				7183F1EE152C409A000D068B /* MenuController.m in Sources */,
 				7183F315152C5F2F000D068B /* GameSquare.m in Sources */,
+				1981227715310B7800921C02 /* Timer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

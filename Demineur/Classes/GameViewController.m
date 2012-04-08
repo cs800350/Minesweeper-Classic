@@ -20,6 +20,7 @@
 @synthesize gridView;
 @synthesize gameFinished;
 @synthesize victory;
+@synthesize timer;
 
 - (id)initWithDifficulty:(enum difficulties)difficulty 
 {
@@ -27,6 +28,11 @@
     if (self) {
         // Initialization code.
 		self.gridBrain = [[GridModel alloc] initWithDifficulty:difficulty];
+		[gridBrain release];
+		
+		self.timer = [[Timer alloc] init];
+		[timer start];
+		[timer release];
 		
 		for (UIView *ui in self.view.subviews) 
 		{
@@ -58,6 +64,7 @@
 		[self.gridBrain discloseGrid];
 		self.gameFinished = YES;
 		self.victory = NO;
+		[timer stop];
 		
 		UIAlertView *finishBox = [[UIAlertView alloc] initWithTitle:@"Défaite" message:@"Vous avez perdu !"
 													   delegate:self cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
@@ -70,7 +77,9 @@
 		self.gameFinished = YES;
 		self.victory = YES;
 		
-		UIAlertView *finishBox = [[UIAlertView alloc] initWithTitle:@"Victoire" message:@"Vous avez gagné !"
+		[timer stop];
+		UIAlertView *finishBox = [[UIAlertView alloc] initWithTitle:@"Victoire" 
+															message:[NSString stringWithFormat:@"Vous avez gagné ! Temps : %d secondes.", timer.currentTime]
 														   delegate:self cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
 		[finishBox show];
 		[finishBox release];	
@@ -218,6 +227,10 @@
 
 
 - (void)dealloc {
+	[gridBrain release];
+	[gridView release];
+	[timer release];
+	
     [super dealloc];
 }
 
