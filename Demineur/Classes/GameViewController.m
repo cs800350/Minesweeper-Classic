@@ -21,6 +21,7 @@
 @synthesize gameFinished;
 @synthesize victory;
 @synthesize timer;
+@synthesize flagMode;
 
 - (id)initWithDifficulty:(enum difficulties)difficulty 
 {
@@ -33,18 +34,23 @@
 		self.timer = [[Timer alloc] init];
 		[timer start];
 		[timer release];
-		
-		for (UIView *ui in self.view.subviews) 
-		{
-			if ([ui isKindOfClass:[GridView class]]) 
-			{
-				((GridView *)ui).gridDataSource = self;
-				self.gridView = ((GridView *)ui);
-				break;
-			}
-		}
     }
     return self;
+}
+
+- (void)toggleFlag:(int)x withY:(int)y
+{
+	int hasFlag = self.gridBrain.gridFlags[x][y];
+	self.gridBrain.gridFlags[x][y] = 1 - hasFlag;
+	[self.gridView setNeedsDisplay];
+}
+
+- (void)toggleFlag:(UITapGestureRecognizer *)sender
+{
+	if(self.gameFinished || sender.state==UIGestureRecognizerStateEnded || sender.state==UIGestureRecognizerStateChanged) return;
+	
+	GameSquare *gs = (GameSquare*)sender.view;
+	[self toggleFlag:gs.coordX withY:gs.coordY];
 }
 
 - (void)discloseSquare:(UITapGestureRecognizer *)sender
@@ -52,7 +58,15 @@
 	if(self.gameFinished) return;
 		
 	GameSquare *gs = (GameSquare*)sender.view;
+	
+	if(flagMode)
+	{
+		[self toggleFlag:gs.coordX withY:gs.coordY];
+		return;
+	}
+	
 	if([self hasFlag:gs.coordX withY:gs.coordY]) return;
+	
 	[self.gridBrain discloseCell:gs.coordX withY:gs.coordY];
 	
 	int cellValue = [self.gridBrain getCellValue:gs.coordX withY:gs.coordY];
@@ -89,14 +103,9 @@
 	[self.gridView setNeedsDisplay];
 }
 
-- (void)toggleFlag:(UITapGestureRecognizer *)sender
+-(void)setFlagMode
 {
-	if(self.gameFinished || sender.state==UIGestureRecognizerStateEnded || sender.state==UIGestureRecognizerStateChanged) return;
-	
-	GameSquare *gs = (GameSquare*)sender.view;
-	int hasFlag = self.gridBrain.gridFlags[gs.coordX][gs.coordY];
-	self.gridBrain.gridFlags[gs.coordX][gs.coordY] = 1 - hasFlag;
-	[self.gridView setNeedsDisplay];
+	flagMode = !flagMode;
 }
 
 - (int)getCellValue:(int)x withY:(int)y
@@ -137,87 +146,34 @@
     // Release any cached data, images, etc. that aren't in use.
 }
 
-/*
 -(void)viewDidLoad
 {
 	[super viewDidLoad];
 	
-	int nbCasesX = self.gridBrain.gridWidth;
-	int nbCasesY = self.gridBrain.gridHeigth;
-	
-	// Image de la case non découverte
-	UIImage *caseImageFermee = [UIImage imageNamed:@"case.png"];
-	UIImage *strechableCaseImageFermee = [caseImageFermee stretchableImageWithLeftCapWidth:12 topCapHeight:0];
-	
-	UIImage *caseImageOuverte = [UIImage imageNamed:@"caseOuverte.png"];
-	UIImage *strechableCaseImageOuverte = [caseImageOuverte stretchableImageWithLeftCapWidth:12 topCapHeight:0];
-	
-	// Dessiner les cases de la map, chaque case étant un bouton
-	for(int i=0; i<nbCasesX; i++)
+	for (UIView *ui in self.view.subviews) 
 	{
-		for(int j=0; j<nbCasesY; j++)
-		{		
-			// Créer le bouton
-			CGRect gs_rect = CGRectMake(i*self.gridView.frame.size.width/nbCasesX, j*self.gridView.frame.size.height/nbCasesY, self.gridView.frame.size.width/nbCasesX, self.gridView.frame.size.height/nbCasesY);
-			
-			//Case fermée
-			//
-			if ([self getCellState:i withY:j]==0) 
-			{
-				//Case avec drapeau
-				//
-				if([self hasFlag:i withY:j])
-				{
-					//TODO
-				}
-				else 
-				{
-					// Ajouter l'image de la case fermée au bouton
-					[strechableCaseImageFermee drawInRect:gs_rect];
-				}
-				
-			}
-			
-			//Case ouverte
-			//
-			else if ([self getCellState:i withY:j]==1)
-			{
-				int value = [self getCellValue:i withY:j];
-				
-				//Case avec bombe
-				//
-				if(value==-1)
-				{
-					//TODO
-				}
-				else 
-				{
-					[strechableCaseImageOuverte drawInRect:gs_rect];
-					
-					//NSString *str = [[NSString alloc] initWithFormat:@"%d",value];
-					//[gameSquare setTitle:str forState:UIControlStateNormal];
-					//[str release];
-				}
-			}
-			
-			GameSquare *gameSquare = [[GameSquare alloc] initWithFrame:gs_rect];
-			
-			gameSquare.coordX = i;
-			gameSquare.coordY = j;
-			
-			//
-			//
-			UITapGestureRecognizer *uiTapGestureRecognizer = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(discloseSquare:)];
-			[gameSquare addGestureRecognizer:uiTapGestureRecognizer];
-			[uiTapGestureRecognizer release];
-			
-			// Ajouter le bouton à la vue
-			[self addSubview:gameSquare];
-			[gameSquare release];
+		if ([ui isKindOfClass:[GridView class]]) 
+		{
+			((GridView *)ui).gridDataSource = self;
+			self.gridView = ((GridView *)ui);
+			break;
 		}
 	}
+	
+	// Add the flag button on the navigation bar
+	UIImage *flagmodeImage = [UIImage imageNamed:@"caseFlag.png"];
+	
+	// create the button and assign the image
+	UIButton *flagButton = [UIButton buttonWithType:UIButtonTypeCustom];
+	[flagButton setImage:flagmodeImage forState:UIControlStateNormal];
+	
+	// set the frame of the button to the size of the image (see note below)
+	flagButton.frame = CGRectMake(0, 0, flagmodeImage.size.width, flagmodeImage.size.height);
+	[flagButton addTarget:self action:@selector(setFlagMode) forControlEvents:UIControlEventTouchUpInside];
+	UIBarButtonItem *customBarItem = [[UIBarButtonItem alloc] initWithCustomView:flagButton];
+	self.navigationItem.rightBarButtonItem = customBarItem;
 }
-*/
+
 
 - (void)viewDidUnload {
     [super viewDidUnload];

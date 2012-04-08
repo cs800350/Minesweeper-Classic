@@ -22,6 +22,7 @@
 	
 	bool gameFinished;
 	bool victory;
+	bool flagMode;
 }
 
 @property (retain) GridModel *gridBrain;
@@ -30,6 +31,7 @@
 
 @property bool gameFinished;
 @property bool victory;
+@property bool flagMode;
 
 //Constructors
 //

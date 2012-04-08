@@ -279,7 +279,7 @@
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {305, 923}}</string>
+							<string>{{0, 0}, {305, 944}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -291,14 +291,14 @@
 					<key>GeometryConfiguration</key>
 					<dict>
 						<key>Frame</key>
-						<string>{{0, 0}, {322, 941}}</string>
+						<string>{{0, 0}, {322, 962}}</string>
 						<key>GroupTreeTableConfiguration</key>
 						<array>
 							<string>MainColumn</string>
 							<real>305</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>133 27 1573 982 0 0 1920 1058 </string>
+						<string>187 55 1592 1003 0 0 1920 1058 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -328,30 +328,30 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>1981232E153118FB00921C02</string>
+										<string>19812388153127E600921C02</string>
 										<key>history</key>
 										<array>
 											<string>1981211C1530DE5400921C02</string>
 											<string>198121921530F2DB00921C02</string>
-											<string>198121931530F2DB00921C02</string>
 											<string>198121941530F2DB00921C02</string>
 											<string>198121951530F2DB00921C02</string>
 											<string>198121971530F2DB00921C02</string>
 											<string>198121D31530F40100921C02</string>
 											<string>198121ED1530F55000921C02</string>
 											<string>198122461530FC6000921C02</string>
-											<string>198122AA1531124B00921C02</string>
-											<string>198122AB1531124B00921C02</string>
-											<string>198122AD1531124B00921C02</string>
 											<string>198122AF1531124B00921C02</string>
 											<string>198122B11531124B00921C02</string>
-											<string>198122FC153115E400921C02</string>
-											<string>198122FD153115E400921C02</string>
-											<string>198122FE153115E400921C02</string>
 											<string>198122FF153115E400921C02</string>
-											<string>1981230A153116A700921C02</string>
 											<string>1981230B153116A700921C02</string>
-											<string>19812322153117EB00921C02</string>
+											<string>1981237B1531272900921C02</string>
+											<string>1981237C1531272900921C02</string>
+											<string>1981237D1531272900921C02</string>
+											<string>1981237E1531272900921C02</string>
+											<string>1981237F1531272900921C02</string>
+											<string>198123801531272900921C02</string>
+											<string>198123811531272900921C02</string>
+											<string>198123821531272900921C02</string>
+											<string>198123831531272900921C02</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -363,14 +363,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1246, 714}}</string>
+								<string>{{0, 0}, {1265, 735}}</string>
 								<key>RubberWindowFrame</key>
-								<string>133 27 1573 982 0 0 1920 1058 </string>
+								<string>187 55 1592 1003 0 0 1920 1058 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>714pt</string>
+							<string>735pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -383,9 +383,9 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 719}, {1246, 222}}</string>
+								<string>{{0, 740}, {1265, 222}}</string>
 								<key>RubberWindowFrame</key>
-								<string>133 27 1573 982 0 0 1920 1058 </string>
+								<string>187 55 1592 1003 0 0 1920 1058 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -394,7 +394,7 @@
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>1246pt</string>
+					<string>1265pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -549,7 +549,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1981232F153118FB00921C02</string>
+		<string>19812389153127E600921C02</string>
 		<string>198121B31530F31200921C02</string>
 		<string>198121AC1530F2DB00921C02</string>
 		<string>1C78EAAD065D492600B07095</string>
@@ -558,7 +558,7 @@
 		<string>/Users/adminuser/Documents/Minesweeper-Classic/Demineur/Demineur.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>133 27 1573 982 0 0 1920 1058 </string>
+	<string>187 55 1592 1003 0 0 1920 1058 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
