@@ -23,6 +23,8 @@
 - (int)getGridHeigth;
 - (void)discloseSquare:(UITapGestureRecognizer *)sender;
 - (void)toggleFlag:(UITapGestureRecognizer *)sender;
+- (int)lastTouchedX;
+- (int)lastTouchedY;
 
 @end
 
@@ -35,6 +37,7 @@
 	UIColor *caseFermee;
 	UIColor *caseBombe;
 	UIColor *caseFlag;
+	UIColor *caseExploded;
 	NSArray *valuesColors;	
 }
 
@@ -44,6 +47,7 @@
 @property (retain)UIColor *caseFermee;
 @property (retain)UIColor *caseBombe;
 @property (retain)UIColor *caseFlag;
+@property (retain)UIColor *caseExploded;
 @property (retain)NSArray *valuesColors;
 
 @end

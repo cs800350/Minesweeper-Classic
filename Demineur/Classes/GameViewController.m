@@ -22,6 +22,8 @@
 @synthesize victory;
 @synthesize timer;
 @synthesize flagMode;
+@synthesize lastTouchedX;
+@synthesize lastTouchedY;
 
 - (id)initWithDifficulty:(enum difficulties)difficulty 
 {
@@ -60,6 +62,16 @@
 	[self toggleFlag:gs.coordX withY:gs.coordY];
 }
 
+- (int)lastTouchedX
+{
+	return lastTouchedX;
+}
+
+- (int)lastTouchedY
+{
+	return lastTouchedY;
+}
+
 - (void)discloseSquare:(UITapGestureRecognizer *)sender
 {
 	if(self.gameFinished) return;
@@ -87,10 +99,14 @@
 		self.victory = NO;
 		[timer stop];
 		
+		// Indicate le last square chose
+		lastTouchedX = gs.coordX;
+		lastTouchedY = gs.coordY;
+		
 		UIAlertView *finishBox = [[UIAlertView alloc] initWithTitle:@"Défaite" message:@"Vous avez perdu !"
 													   delegate:self cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
 		[finishBox show];
-		[finishBox release];	
+		[finishBox release];
 	}
 	else if([self.gridBrain didWin]) // Victory
 	{
@@ -106,7 +122,6 @@
 		[finishBox release];	
 	}
 
-	
 	[self.gridView setNeedsDisplay];
 }
 

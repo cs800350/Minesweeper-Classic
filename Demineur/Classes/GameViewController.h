@@ -23,6 +23,8 @@
 	bool gameFinished;
 	bool victory;
 	bool flagMode;
+	int lastTouchedX;
+	int lastTouchedY;
 }
 
 @property (retain) GridModel *gridBrain;
@@ -32,6 +34,8 @@
 @property bool gameFinished;
 @property bool victory;
 @property bool flagMode;
+@property int lastTouchedX;
+@property int lastTouchedY;
 
 //Constructors
 //

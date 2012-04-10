@@ -16,6 +16,7 @@
 @synthesize caseFermee;
 @synthesize caseBombe;
 @synthesize caseFlag;
+@synthesize caseExploded;
 @synthesize valuesColors;
 
 
@@ -27,6 +28,7 @@
 		caseFermee = [[UIColor alloc] initWithPatternImage:[UIImage imageNamed:@"case.png"]];
 		caseOuverte = [[UIColor alloc] initWithPatternImage:[UIImage imageNamed:@"caseOuverte.png"]];
 		caseBombe = [[UIColor alloc] initWithPatternImage:[UIImage imageNamed:@"caseBomb.png"]];
+		caseExploded = [[UIColor alloc] initWithPatternImage:[UIImage imageNamed:@"caseExploded.png"]];
 		
 		valuesColors = [[NSArray alloc] initWithObjects:[UIColor blueColor] , [UIColor greenColor], 
 						[UIColor redColor], [UIColor purpleColor], [UIColor orangeColor], [UIColor brownColor], nil];
@@ -94,8 +96,16 @@
 				//
 				if(value==-1)
 				{
-					// Ajouter l'image de la case avec une bombe
-					[gameSquare setBackgroundColor:self.caseBombe];
+					if([self.gridDataSource lastTouchedX]==i && [self.gridDataSource lastTouchedY] == j)
+					{
+						// Add cthe square image containing the exploded bomb
+						[gameSquare setBackgroundColor:self.caseExploded];
+					}
+					else {
+						// Add cthe square image containing the bomb
+						[gameSquare setBackgroundColor:self.caseBombe];
+					}
+
 				}
 				else 
 				{
