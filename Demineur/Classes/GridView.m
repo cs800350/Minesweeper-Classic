@@ -17,6 +17,7 @@
 @synthesize caseBombe;
 @synthesize caseFlag;
 @synthesize caseExploded;
+@synthesize caseFlagMode;
 @synthesize valuesColors;
 
 
@@ -29,6 +30,7 @@
 		caseOuverte = [[UIColor alloc] initWithPatternImage:[UIImage imageNamed:@"caseOuverte.png"]];
 		caseBombe = [[UIColor alloc] initWithPatternImage:[UIImage imageNamed:@"caseBomb.png"]];
 		caseExploded = [[UIColor alloc] initWithPatternImage:[UIImage imageNamed:@"caseExploded.png"]];
+		caseFlagMode = [[UIColor alloc] initWithPatternImage:[UIImage imageNamed:@"caseFlagMode.png"]];
 		
 		valuesColors = [[NSArray alloc] initWithObjects:[UIColor blueColor] , [UIColor greenColor], 
 						[UIColor redColor], [UIColor purpleColor], [UIColor orangeColor], [UIColor brownColor], nil];
@@ -80,8 +82,16 @@
 				}
 				else 
 				{
-					// Ajouter l'image de la case fermée 
-					[gameSquare setBackgroundColor:self.caseFermee];
+					if([self.gridDataSource flagMode])
+					{
+						// Add the square image in flag mode
+						[gameSquare setBackgroundColor:self.caseFlagMode];
+					}
+					else {
+						// Ajouter l'image de la case fermée 
+						[gameSquare setBackgroundColor:self.caseFermee];
+					}
+
 				}
 		
 			}

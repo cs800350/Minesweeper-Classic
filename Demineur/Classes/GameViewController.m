@@ -129,6 +129,12 @@
 -(void)setFlagMode
 {
 	flagMode = !flagMode;
+	[self.gridView setNeedsDisplay];
+}
+
+-(bool)flagMode
+{
+	return flagMode;
 }
 
 - (int)getCellValue:(int)x withY:(int)y

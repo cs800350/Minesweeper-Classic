@@ -25,6 +25,7 @@
 - (void)toggleFlag:(UITapGestureRecognizer *)sender;
 - (int)lastTouchedX;
 - (int)lastTouchedY;
+- (bool)flagMode;
 
 @end
 
@@ -38,6 +39,7 @@
 	UIColor *caseBombe;
 	UIColor *caseFlag;
 	UIColor *caseExploded;
+	UIColor *caseFlagMode;
 	NSArray *valuesColors;	
 }
 
@@ -48,6 +50,7 @@
 @property (retain)UIColor *caseBombe;
 @property (retain)UIColor *caseFlag;
 @property (retain)UIColor *caseExploded;
+@property (retain)UIColor *caseFlagMode;
 @property (retain)NSArray *valuesColors;
 
 @end

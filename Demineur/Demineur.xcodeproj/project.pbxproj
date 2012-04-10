@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		19797A2015308ABB00C7C4B3 /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19797A1F15308ABB00C7C4B3 /* GameViewController.xib */; };
 		19797A2415308AED00C7C4B3 /* MenuController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19797A2315308AED00C7C4B3 /* MenuController.xib */; };
+		197C083B15344D5B00D58CF7 /* caseFlagMode.png in Resources */ = {isa = PBXBuildFile; fileRef = 197C083A15344D5B00D58CF7 /* caseFlagMode.png */; };
 		197CCADD1534331600B64289 /* caseExploded.png in Resources */ = {isa = PBXBuildFile; fileRef = 197CCADC1534331600B64289 /* caseExploded.png */; };
 		1981227715310B7800921C02 /* Timer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1981227615310B7800921C02 /* Timer.m */; };
 		19EEA939153443ED0090D1E2 /* music_menu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 19EEA937153443ED0090D1E2 /* music_menu.mp3 */; };
@@ -35,6 +36,7 @@
 /* Begin PBXFileReference section */
 		19797A1F15308ABB00C7C4B3 /* GameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameViewController.xib; sourceTree = "<group>"; };
 		19797A2315308AED00C7C4B3 /* MenuController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuController.xib; sourceTree = "<group>"; };
+		197C083A15344D5B00D58CF7 /* caseFlagMode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = caseFlagMode.png; sourceTree = "<group>"; };
 		197CCADC1534331600B64289 /* caseExploded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = caseExploded.png; sourceTree = "<group>"; };
 		1981227515310B7800921C02 /* Timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timer.h; sourceTree = "<group>"; };
 		1981227615310B7800921C02 /* Timer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Timer.m; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				197C083A15344D5B00D58CF7 /* caseFlagMode.png */,
 				197CCADC1534331600B64289 /* caseExploded.png */,
 				717D0DCD1530863C00FE1156 /* menuBackground.png */,
 				7181E8EA152C8323002D5FE5 /* caseBomb.png */,
@@ -231,6 +234,7 @@
 				197CCADD1534331600B64289 /* caseExploded.png in Resources */,
 				19EEA939153443ED0090D1E2 /* music_menu.mp3 in Resources */,
 				19EEA93A153443ED0090D1E2 /* music.mp3 in Resources */,
+				197C083B15344D5B00D58CF7 /* caseFlagMode.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
