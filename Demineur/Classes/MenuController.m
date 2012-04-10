@@ -12,6 +12,8 @@
 
 @implementation MenuController
 
+@synthesize musicPlayer;
+
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 /*
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -58,11 +60,43 @@
 		difficulty = HARD;
 	}
 	
+	self.title = @"Quitter la partie";
 	GameViewController *gc = [[GameViewController alloc] initWithDifficulty:difficulty];
 	[self.navigationController pushViewController:gc animated:YES];
 	[gc release];
 }
 
+-(void) viewDidLoad
+{
+	//Init music
+	//
+	NSString *soundFilePath = [[NSBundle mainBundle] pathForResource: @"music_menu" ofType: @"mp3"];
+    NSURL *fileURL = [[NSURL alloc] initFileURLWithPath: soundFilePath];
+    AVAudioPlayer *newPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL: fileURL error: nil];
+    [fileURL release];
+    self.musicPlayer = newPlayer;
+    [newPlayer release];
+}
+
+- (void) viewWillAppear:(BOOL)animated
+{
+	self.title=@"Menu";
+	
+	//Music settings
+	//
+	self.musicPlayer.numberOfLoops = -1;
+    self.musicPlayer.currentTime = 0;
+    self.musicPlayer.volume = 1.0;
+    [self.musicPlayer play];
+}
+
+-(void) viewWillDisappear:(BOOL)animated
+{
+	if (self.musicPlayer.playing) 
+	{
+        [self.musicPlayer stop];
+    }
+}
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
     // Overriden to allow any orientation.

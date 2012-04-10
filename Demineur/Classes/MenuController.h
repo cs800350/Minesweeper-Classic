@@ -7,11 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import <AVFoundation/AVAudioPlayer.h>
 
 @interface MenuController : UIViewController {
-
+	
+	//Music
+	//
+	AVAudioPlayer *musicPlayer;
+	
 }
+
+@property (nonatomic, retain) AVAudioPlayer *musicPlayer;
 
 - (IBAction)startGamePressed:(UIButton *)sender;
 

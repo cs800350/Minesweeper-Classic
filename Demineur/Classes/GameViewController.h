@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVAudioPlayer.h>
 #import "GridModel.h"
 #import "GridView.h"
 #import "GameSquare.h"
@@ -25,6 +26,10 @@
 	bool flagMode;
 	int lastTouchedX;
 	int lastTouchedY;
+	
+	//Music
+	//
+	AVAudioPlayer *musicPlayer;
 }
 
 @property (retain) GridModel *gridBrain;
@@ -36,6 +41,8 @@
 @property bool flagMode;
 @property int lastTouchedX;
 @property int lastTouchedY;
+
+@property (nonatomic, retain) AVAudioPlayer *musicPlayer;
 
 //Constructors
 //

@@ -24,6 +24,7 @@
 @synthesize flagMode;
 @synthesize lastTouchedX;
 @synthesize lastTouchedY;
+@synthesize musicPlayer;
 
 - (id)initWithDifficulty:(enum difficulties)difficulty 
 {
@@ -190,6 +191,15 @@
 	[flagButton addTarget:self action:@selector(setFlagMode) forControlEvents:UIControlEventTouchUpInside];
 	UIBarButtonItem *customBarItem = [[UIBarButtonItem alloc] initWithCustomView:flagButton];
 	self.navigationItem.rightBarButtonItem = customBarItem;
+	
+	//Init music
+	//
+	NSString *soundFilePath = [[NSBundle mainBundle] pathForResource: @"music" ofType: @"mp3"];
+    NSURL *fileURL = [[NSURL alloc] initFileURLWithPath: soundFilePath];
+    AVAudioPlayer *newPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL: fileURL error: nil];
+    [fileURL release];
+    self.musicPlayer = newPlayer;
+    [newPlayer release];
 }
 
 
@@ -197,6 +207,22 @@
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
+}
+
+- (void) viewWillAppear:(BOOL)animated
+{
+	self.musicPlayer.numberOfLoops = -1;
+    self.musicPlayer.currentTime = 0;
+    self.musicPlayer.volume = 1.0;
+    [self.musicPlayer play];
+}
+
+-(void) viewWillDisappear:(BOOL)animated
+{
+	if (self.musicPlayer.playing) 
+	{
+        [self.musicPlayer stop];
+    }
 }
 
 
