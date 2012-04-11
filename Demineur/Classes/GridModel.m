@@ -218,7 +218,12 @@
 	{
 		for (int j=0; j<self.gridHeigth; j++)
 		{
-			self.gridState[i][j]=1;
+			// Only disclose the square if it doesn't contain a flag AND does contain a bomb
+			// or if the flag is put in a quare that does not contain a bomb
+			if(self.gridValues[i][j]==-1 && self.gridFlags[i][j]==0 || self.gridValues[i][j]!=-1 && self.gridFlags[i][j]==1)
+			{
+				self.gridState[i][j]=1;
+			}
 		}
 	}
 }

@@ -4,7 +4,7 @@
 <dict>
  <key>files</key>
  <array>
-  <string>/Users/antoine/Documents/MIAGE/iOS/Project/Minesweeper-Classic/Demineur/Classes/MenuController.m</string>
+  <string>/Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/MenuController.m</string>
  </array>
  <key>diagnostics</key>
  <array>
@@ -15,7 +15,7 @@
      <key>kind</key><string>event</string>
      <key>location</key>
      <dict>
-      <key>line</key><integer>46</integer>
+      <key>line</key><integer>48</integer>
       <key>col</key><integer>2</integer>
       <key>file</key><integer>0</integer>
      </dict>
@@ -23,12 +23,12 @@
      <array>
        <array>
         <dict>
-         <key>line</key><integer>46</integer>
+         <key>line</key><integer>48</integer>
          <key>col</key><integer>2</integer>
          <key>file</key><integer>0</integer>
         </dict>
         <dict>
-         <key>line</key><integer>46</integer>
+         <key>line</key><integer>48</integer>
          <key>col</key><integer>29</integer>
          <key>file</key><integer>0</integer>
         </dict>
@@ -47,12 +47,12 @@
         <key>start</key>
          <array>
           <dict>
-           <key>line</key><integer>46</integer>
+           <key>line</key><integer>48</integer>
            <key>col</key><integer>2</integer>
            <key>file</key><integer>0</integer>
           </dict>
           <dict>
-           <key>line</key><integer>46</integer>
+           <key>line</key><integer>48</integer>
            <key>col</key><integer>29</integer>
            <key>file</key><integer>0</integer>
           </dict>
@@ -60,114 +60,12 @@
         <key>end</key>
          <array>
           <dict>
-           <key>line</key><integer>48</integer>
+           <key>line</key><integer>50</integer>
            <key>col</key><integer>2</integer>
            <key>file</key><integer>0</integer>
           </dict>
           <dict>
-           <key>line</key><integer>48</integer>
-           <key>col</key><integer>2</integer>
-           <key>file</key><integer>0</integer>
-          </dict>
-         </array>
-       </dict>
-      </array>
-    </dict>
-    <dict>
-     <key>kind</key><string>control</string>
-     <key>edges</key>
-      <array>
-       <dict>
-        <key>start</key>
-         <array>
-          <dict>
-           <key>line</key><integer>48</integer>
-           <key>col</key><integer>2</integer>
-           <key>file</key><integer>0</integer>
-          </dict>
-          <dict>
-           <key>line</key><integer>48</integer>
-           <key>col</key><integer>2</integer>
-           <key>file</key><integer>0</integer>
-          </dict>
-         </array>
-        <key>end</key>
-         <array>
-          <dict>
-           <key>line</key><integer>52</integer>
-           <key>col</key><integer>7</integer>
-           <key>file</key><integer>0</integer>
-          </dict>
-          <dict>
-           <key>line</key><integer>52</integer>
-           <key>col</key><integer>7</integer>
-           <key>file</key><integer>0</integer>
-          </dict>
-         </array>
-       </dict>
-      </array>
-    </dict>
-    <dict>
-     <key>kind</key><string>control</string>
-     <key>edges</key>
-      <array>
-       <dict>
-        <key>start</key>
-         <array>
-          <dict>
-           <key>line</key><integer>52</integer>
-           <key>col</key><integer>7</integer>
-           <key>file</key><integer>0</integer>
-          </dict>
-          <dict>
-           <key>line</key><integer>52</integer>
-           <key>col</key><integer>7</integer>
-           <key>file</key><integer>0</integer>
-          </dict>
-         </array>
-        <key>end</key>
-         <array>
-          <dict>
-           <key>line</key><integer>56</integer>
-           <key>col</key><integer>7</integer>
-           <key>file</key><integer>0</integer>
-          </dict>
-          <dict>
-           <key>line</key><integer>56</integer>
-           <key>col</key><integer>7</integer>
-           <key>file</key><integer>0</integer>
-          </dict>
-         </array>
-       </dict>
-      </array>
-    </dict>
-    <dict>
-     <key>kind</key><string>control</string>
-     <key>edges</key>
-      <array>
-       <dict>
-        <key>start</key>
-         <array>
-          <dict>
-           <key>line</key><integer>56</integer>
-           <key>col</key><integer>7</integer>
-           <key>file</key><integer>0</integer>
-          </dict>
-          <dict>
-           <key>line</key><integer>56</integer>
-           <key>col</key><integer>7</integer>
-           <key>file</key><integer>0</integer>
-          </dict>
-         </array>
-        <key>end</key>
-         <array>
-          <dict>
-           <key>line</key><integer>61</integer>
-           <key>col</key><integer>2</integer>
-           <key>file</key><integer>0</integer>
-          </dict>
-          <dict>
-           <key>line</key><integer>61</integer>
+           <key>line</key><integer>50</integer>
            <key>col</key><integer>2</integer>
            <key>file</key><integer>0</integer>
           </dict>
@@ -183,12 +81,12 @@
         <key>start</key>
          <array>
           <dict>
-           <key>line</key><integer>61</integer>
+           <key>line</key><integer>50</integer>
            <key>col</key><integer>2</integer>
            <key>file</key><integer>0</integer>
           </dict>
           <dict>
-           <key>line</key><integer>61</integer>
+           <key>line</key><integer>50</integer>
            <key>col</key><integer>2</integer>
            <key>file</key><integer>0</integer>
           </dict>
@@ -196,12 +94,148 @@
         <key>end</key>
          <array>
           <dict>
-           <key>line</key><integer>61</integer>
+           <key>line</key><integer>54</integer>
+           <key>col</key><integer>7</integer>
+           <key>file</key><integer>0</integer>
+          </dict>
+          <dict>
+           <key>line</key><integer>54</integer>
+           <key>col</key><integer>7</integer>
+           <key>file</key><integer>0</integer>
+          </dict>
+         </array>
+       </dict>
+      </array>
+    </dict>
+    <dict>
+     <key>kind</key><string>control</string>
+     <key>edges</key>
+      <array>
+       <dict>
+        <key>start</key>
+         <array>
+          <dict>
+           <key>line</key><integer>54</integer>
+           <key>col</key><integer>7</integer>
+           <key>file</key><integer>0</integer>
+          </dict>
+          <dict>
+           <key>line</key><integer>54</integer>
+           <key>col</key><integer>7</integer>
+           <key>file</key><integer>0</integer>
+          </dict>
+         </array>
+        <key>end</key>
+         <array>
+          <dict>
+           <key>line</key><integer>58</integer>
+           <key>col</key><integer>7</integer>
+           <key>file</key><integer>0</integer>
+          </dict>
+          <dict>
+           <key>line</key><integer>58</integer>
+           <key>col</key><integer>7</integer>
+           <key>file</key><integer>0</integer>
+          </dict>
+         </array>
+       </dict>
+      </array>
+    </dict>
+    <dict>
+     <key>kind</key><string>control</string>
+     <key>edges</key>
+      <array>
+       <dict>
+        <key>start</key>
+         <array>
+          <dict>
+           <key>line</key><integer>58</integer>
+           <key>col</key><integer>7</integer>
+           <key>file</key><integer>0</integer>
+          </dict>
+          <dict>
+           <key>line</key><integer>58</integer>
+           <key>col</key><integer>7</integer>
+           <key>file</key><integer>0</integer>
+          </dict>
+         </array>
+        <key>end</key>
+         <array>
+          <dict>
+           <key>line</key><integer>63</integer>
+           <key>col</key><integer>2</integer>
+           <key>file</key><integer>0</integer>
+          </dict>
+          <dict>
+           <key>line</key><integer>63</integer>
+           <key>col</key><integer>2</integer>
+           <key>file</key><integer>0</integer>
+          </dict>
+         </array>
+       </dict>
+      </array>
+    </dict>
+    <dict>
+     <key>kind</key><string>control</string>
+     <key>edges</key>
+      <array>
+       <dict>
+        <key>start</key>
+         <array>
+          <dict>
+           <key>line</key><integer>63</integer>
+           <key>col</key><integer>2</integer>
+           <key>file</key><integer>0</integer>
+          </dict>
+          <dict>
+           <key>line</key><integer>63</integer>
+           <key>col</key><integer>2</integer>
+           <key>file</key><integer>0</integer>
+          </dict>
+         </array>
+        <key>end</key>
+         <array>
+          <dict>
+           <key>line</key><integer>64</integer>
+           <key>col</key><integer>2</integer>
+           <key>file</key><integer>0</integer>
+          </dict>
+          <dict>
+           <key>line</key><integer>64</integer>
+           <key>col</key><integer>2</integer>
+           <key>file</key><integer>0</integer>
+          </dict>
+         </array>
+       </dict>
+      </array>
+    </dict>
+    <dict>
+     <key>kind</key><string>control</string>
+     <key>edges</key>
+      <array>
+       <dict>
+        <key>start</key>
+         <array>
+          <dict>
+           <key>line</key><integer>64</integer>
+           <key>col</key><integer>2</integer>
+           <key>file</key><integer>0</integer>
+          </dict>
+          <dict>
+           <key>line</key><integer>64</integer>
+           <key>col</key><integer>2</integer>
+           <key>file</key><integer>0</integer>
+          </dict>
+         </array>
+        <key>end</key>
+         <array>
+          <dict>
+           <key>line</key><integer>64</integer>
            <key>col</key><integer>27</integer>
            <key>file</key><integer>0</integer>
           </dict>
           <dict>
-           <key>line</key><integer>61</integer>
+           <key>line</key><integer>64</integer>
            <key>col</key><integer>84</integer>
            <key>file</key><integer>0</integer>
           </dict>
@@ -213,7 +247,7 @@
      <key>kind</key><string>event</string>
      <key>location</key>
      <dict>
-      <key>line</key><integer>61</integer>
+      <key>line</key><integer>64</integer>
       <key>col</key><integer>27</integer>
       <key>file</key><integer>0</integer>
      </dict>
@@ -221,12 +255,12 @@
      <array>
        <array>
         <dict>
-         <key>line</key><integer>61</integer>
+         <key>line</key><integer>64</integer>
          <key>col</key><integer>74</integer>
          <key>file</key><integer>0</integer>
         </dict>
         <dict>
-         <key>line</key><integer>61</integer>
+         <key>line</key><integer>64</integer>
          <key>col</key><integer>83</integer>
          <key>file</key><integer>0</integer>
         </dict>
@@ -243,7 +277,7 @@
    <key>type</key><string>Pass-by-value argument in message expression is undefined</string>
   <key>location</key>
   <dict>
-   <key>line</key><integer>61</integer>
+   <key>line</key><integer>64</integer>
    <key>col</key><integer>27</integer>
    <key>file</key><integer>0</integer>
   </dict>
