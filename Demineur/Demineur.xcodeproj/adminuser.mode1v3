@@ -271,9 +271,6 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>19</integer>
-									<integer>17</integer>
-									<integer>3</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -308,14 +305,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>GridModel.m</string>
+								<string>caseOuverte.png</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -323,11 +318,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>GridModel.m</string>
+										<string>caseOuverte.png</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>1978369E153645BD0070BCD0</string>
+										<string>19AAEAB91537A20800F5A3A6</string>
 										<key>history</key>
 										<array>
 											<string>1981211C1530DE5400921C02</string>
@@ -344,16 +339,16 @@
 											<string>197B26E115345BBA00E89187</string>
 											<string>197B26E215345BBA00E89187</string>
 											<string>197B26E315345BBA00E89187</string>
-											<string>197B26E415345BBA00E89187</string>
 											<string>197B26E515345BBA00E89187</string>
 											<string>197B26E615345BBA00E89187</string>
 											<string>197B26E715345BBA00E89187</string>
 											<string>197B26EA15345BBA00E89187</string>
-											<string>197B26EB15345BBA00E89187</string>
 											<string>197B26EC15345BBA00E89187</string>
 											<string>1978369B153645BD0070BCD0</string>
 											<string>1978369C153645BD0070BCD0</string>
-											<string>1978369D153645BD0070BCD0</string>
+											<string>19AAEAB61537A20800F5A3A6</string>
+											<string>19AAEAB71537A20800F5A3A6</string>
+											<string>19AAEAB81537A20800F5A3A6</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -365,16 +360,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1265, 669}}</string>
+								<string>{{0, 0}, {1265, 663}}</string>
 								<key>RubberWindowFrame</key>
 								<string>143 55 1592 1003 0 0 1920 1058 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>669pt</string>
+							<string>663pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -385,14 +382,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 674}, {1265, 288}}</string>
+								<string>{{0, 668}, {1265, 294}}</string>
 								<key>RubberWindowFrame</key>
 								<string>143 55 1592 1003 0 0 1920 1058 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>288pt</string>
+							<string>294pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -411,9 +408,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>1978369F153645BD0070BCD0</string>
+				<string>19AAEABA1537A20800F5A3A6</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>197836A0153645BD0070BCD0</string>
+				<string>19AAEABB1537A20800F5A3A6</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -551,7 +548,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1C78EAAD065D492600B07095</string>
+		<string>19AAEAC31537A20800F5A3A6</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>197979C11530886000C7C4B3</string>
 		<string>/Users/adminuser/Documents/Minesweeper-Classic/Demineur/Demineur.xcodeproj</string>
@@ -634,7 +631,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>197979C11530886000C7C4B3</string>
-				<string>197836A1153645BD0070BCD0</string>
+				<string>19AAEABC1537A20800F5A3A6</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -756,13 +753,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>197836A2153645BD0070BCD0</string>
+				<string>19AAEABD1537A20800F5A3A6</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>197836A3153645BD0070BCD0</string>
-				<string>197836A4153645BD0070BCD0</string>
-				<string>197836A5153645BD0070BCD0</string>
-				<string>197836A6153645BD0070BCD0</string>
-				<string>197836A7153645BD0070BCD0</string>
+				<string>19AAEABE1537A20800F5A3A6</string>
+				<string>19AAEABF1537A20800F5A3A6</string>
+				<string>19AAEAC01537A20800F5A3A6</string>
+				<string>19AAEAC11537A20800F5A3A6</string>
+				<string>19AAEAC21537A20800F5A3A6</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
