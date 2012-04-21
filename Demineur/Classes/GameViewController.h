@@ -20,6 +20,7 @@
 	GridModel *gridBrain;
 	GridView *gridView;
 	Timer *timer;
+	NSMutableArray *listSquares;
 	
 	bool gameFinished;
 	bool victory;
@@ -32,15 +33,16 @@
 	AVAudioPlayer *musicPlayer;
 }
 
-@property (retain) GridModel *gridBrain;
-@property (retain) GridView *gridView;
-@property (retain) Timer *timer;
+@property (retain) GridModel      *gridBrain;
+@property (retain) GridView       *gridView;
+@property (retain) Timer          *timer;
+@property (retain) NSMutableArray *listSquares;
 
 @property bool gameFinished;
 @property bool victory;
 @property bool flagMode;
-@property int lastTouchedX;
-@property int lastTouchedY;
+@property int  lastTouchedX;
+@property int  lastTouchedY;
 
 @property (nonatomic, retain) AVAudioPlayer *musicPlayer;
 

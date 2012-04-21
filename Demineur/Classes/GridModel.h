@@ -74,6 +74,7 @@ enum difficulties {BEGINER, MEDIUM, HARD};
 -(int)getCellState:(int)x withY:(int)y;
 -(void)discloseGrid;
 -(bool)didWin;
+-(int)minesRemaining;
 
 //Class methods
 //

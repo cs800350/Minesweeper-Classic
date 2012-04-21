@@ -34,7 +34,6 @@
 	{
 		currentTime++;
 	}
-	NSLog(@"%d", currentTime);
 	
 	return currentTime;
 }

@@ -180,9 +180,9 @@
 	{
 		if (y > -1 && y < self.gridHeigth) 
 		{
-			if(self.gridValues[x][y] == 0)
+			if(self.gridFlags[x][y] == 0)
 			{
-				self.gridValues[x][y] = 1;
+				self.gridFlags[x][y] = 1;
 				self.currentNbFlag = self.currentNbFlag + 1;
 				return true;
 			}
@@ -199,9 +199,9 @@
 	{
 		if (y > -1 && y < self.gridHeigth) 
 		{
-			if(self.gridValues[x][y] == 1)
+			if(self.gridFlags[x][y] == 1)
 			{
-				self.gridValues[x][y] = 0;
+				self.gridFlags[x][y] = 0;
 				self.currentNbFlag = self.currentNbFlag - 1;
 				return true;
 			}
@@ -252,6 +252,11 @@
 	return -3;
 }
 
+// Theorical number of mines remaining depending on the number of flags the user has put
+-(int)minesRemaining
+{
+	return self.nbMines-self.currentNbFlag;
+}
 
 //Class methods implementation
 //

@@ -9,14 +9,15 @@
 #import <UIKit/UIKit.h>
 
 
-@interface GameSquare : UIView {
-
-	@private
+@interface GameSquare : UIImageView {
+@private
 	int coordX;
 	int coordY;
+	UILabel *label;
 }
 
 @property int coordX;
 @property int coordY;
+@property (retain) UILabel *label;
 
 @end
