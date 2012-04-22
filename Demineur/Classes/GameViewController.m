@@ -109,9 +109,16 @@
 					//gameSquare.backgroundColor = caseOuverte;
 					[gameSquare setImage:self.gridView.caseOuverte];
 	
+					// Wrong flag - When the player lost and has placed a flag on a square that doesn't contain a bomb
+					// this square is disclosed by the model
+					if([self hasFlag:i withY:j]==1)
+					{
+						[gameSquare setImage:self.gridView.caseWrongFlag];
+					}
+					
 					//Case ouverte avec une valeur
 					//
-					if(value!=-1 && value!=0 && !gameSquare.label)
+					else if(value!=-1 && value!=0 && !gameSquare.label)
 					{
 						CGRect gs_rect2 = CGRectMake(0, 0, gameSquare.frame.size.width, gameSquare.frame.size.height);
 						

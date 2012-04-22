@@ -40,6 +40,7 @@
 	UIImage *caseFlag;
 	UIImage *caseExploded;
 	UIImage *caseFlagMode;
+	UIImage *caseWrongFlag;
 	NSArray *valuesColors;	
 }
 
@@ -49,6 +50,7 @@
 @property (retain)UIImage *caseFermee;
 @property (retain)UIImage *caseBombe;
 @property (retain)UIImage *caseFlag;
+@property (retain)UIImage *caseWrongFlag;
 @property (retain)UIImage *caseExploded;
 @property (retain)UIImage *caseFlagMode;
 @property (retain)NSArray *valuesColors;

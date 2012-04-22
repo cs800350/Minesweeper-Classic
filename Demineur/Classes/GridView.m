@@ -18,6 +18,7 @@
 @synthesize caseFlag;
 @synthesize caseExploded;
 @synthesize caseFlagMode;
+@synthesize caseWrongFlag;
 @synthesize valuesColors;
 
 
@@ -31,6 +32,7 @@
 		caseBombe    = [UIImage imageNamed:@"caseBomb.png"];
 		caseExploded = [UIImage imageNamed:@"caseExploded.png"];
 		caseFlagMode = [UIImage imageNamed:@"caseFlagMode.png"];
+		caseWrongFlag = [UIImage imageNamed:@"caseWrongFlag.png"];
 		
 		valuesColors = [[NSArray alloc] initWithObjects:[UIColor blueColor] , [UIColor greenColor], 
 						[UIColor redColor], [UIColor purpleColor], [UIColor orangeColor], [UIColor brownColor], nil];
