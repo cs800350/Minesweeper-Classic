@@ -18,6 +18,7 @@
 
 @synthesize gridBrain;
 @synthesize gridView;
+@synthesize scrollView;
 @synthesize gameFinished;
 @synthesize victory;
 @synthesize timer;
@@ -331,12 +332,28 @@
 	float xPadding = (rect.size.width - grid_width) /2;
 	float yPadding = (rect.size.height - grid_heigth) /2;
 	
+	// Get current device orientation
+	// put the y padding to 0 if orientation is landscape and the grid height is too big (especialy for the hard difficulty)
+	int grid_heigth_medium = HEIGTH_MEDIUM;
+	UIInterfaceOrientation orientation = [[UIDevice currentDevice] orientation];
+	if(self.gridBrain.gridHeigth > grid_heigth_medium && UIInterfaceOrientationIsLandscape(orientation))
+	{
+		yPadding = 0;
+	}
+	
 	// Create game grid
+	CGRect scroll_rect = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
+	self.scrollView = [[UIScrollView alloc] initWithFrame:scroll_rect];
+	self.scrollView.autoresizingMask = (UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight);
+	self.scrollView.contentSize = CGSizeMake(rect.size.width, grid_heigth);
+	[self.view addSubview:self.scrollView];
+	[self.scrollView release];
+	
 	CGRect gg_rect = CGRectMake(xPadding, yPadding, grid_width, grid_heigth);
 	self.gridView = [[GridView alloc] initWithFrame:gg_rect];
 	self.gridView.autoresizingMask = (UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin 
 									  | UIViewAutoresizingFlexibleTopMargin | UIViewAutoresizingFlexibleBottomMargin);
-	[self.view addSubview:gridView];
+	[self.scrollView addSubview:self.gridView];
 	[self.gridView release];
 	
 	self.listSquares = [[NSMutableArray alloc] init];
@@ -381,6 +398,30 @@
 	[self.listSquares release];
 }
 
+- (void)didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation {
+	int grid_heigth_medium = HEIGTH_MEDIUM;
+	int cell_width = CELL_WIDTH;
+	int cell_height = CELL_HEIGTH;
+	
+	CGRect rect = self.view.frame;
+	float grid_width = self.gridBrain.gridWidth*cell_width;
+	float grid_heigth = self.gridBrain.gridHeigth*cell_height;
+	float xPadding = (rect.size.width - grid_width) /2;
+	float yPadding = (rect.size.height - grid_heigth) /2;
+	
+	// if we are not in beginner mode, fix the position of the gridview
+	if(self.gridBrain.gridHeigth > grid_heigth_medium && UIInterfaceOrientationIsPortrait(fromInterfaceOrientation))
+	{
+		
+		self.scrollView.contentSize = CGSizeMake(rect.size.width, grid_heigth);
+		self.gridView.frame = CGRectMake(xPadding, 0, grid_width, grid_heigth);
+	}
+	else if(self.gridBrain.gridHeigth > grid_heigth_medium && UIInterfaceOrientationIsLandscape(fromInterfaceOrientation))
+	{
+		self.scrollView.contentSize = CGSizeMake(grid_width, grid_heigth);
+		self.gridView.frame = CGRectMake(xPadding, yPadding, grid_width, grid_heigth);
+	}
+}
 
 - (void)viewDidUnload {
     [super viewDidUnload];

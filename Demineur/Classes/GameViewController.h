@@ -19,6 +19,7 @@
 @private
 	GridModel *gridBrain;
 	GridView *gridView;
+	UIScrollView *scrollView;
 	Timer *timer;
 	NSMutableArray *listSquares;
 	
@@ -35,6 +36,7 @@
 
 @property (retain) GridModel      *gridBrain;
 @property (retain) GridView       *gridView;
+@property (retain) UIScrollView   *scrollView;
 @property (retain) Timer          *timer;
 @property (retain) NSMutableArray *listSquares;
 

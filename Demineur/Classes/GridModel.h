@@ -15,8 +15,8 @@
 #define HEIGTH_BEGINER 9 ;
 #define NBMINES_BEGINER 10 ;
 
-#define WIDTH_MEDIUM 16 ;
-#define HEIGTH_MEDIUM 16 ;
+#define WIDTH_MEDIUM 15 ;
+#define HEIGTH_MEDIUM 15 ;
 #define NBMINES_MEDIUM 40 ;
 
 #define WIDTH_HARD 17 ;
