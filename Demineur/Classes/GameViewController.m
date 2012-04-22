@@ -113,7 +113,7 @@
 	
 					// Wrong flag - When the player lost and has placed a flag on a square that doesn't contain a bomb
 					// this square is disclosed by the model
-					if([self hasFlag:i withY:j])
+					if([self hasFlag:i withY:j] && self.gameFinished && !self.victory)
 					{
 						[gameSquare setImage:self.gridView.caseWrongFlag];
 					}

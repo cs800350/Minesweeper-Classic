@@ -180,7 +180,8 @@
 	{
 		if (y > -1 && y < self.gridHeigth) 
 		{
-			if(self.gridFlags[x][y] == 0)
+			// Put the flag only if there isn't already a flag and the square is not already discovered
+			if(self.gridFlags[x][y] == 0 && self.gridState[x][y] == 0)
 			{
 				self.gridFlags[x][y] = 1;
 				self.currentNbFlag = self.currentNbFlag + 1;
@@ -199,7 +200,8 @@
 	{
 		if (y > -1 && y < self.gridHeigth) 
 		{
-			if(self.gridFlags[x][y] == 1)
+			// Remove the the flag only if there is already a flag and the square is not already discovered
+			if(self.gridFlags[x][y] == 1 && self.gridState[x][y] == 0)
 			{
 				self.gridFlags[x][y] = 0;
 				self.currentNbFlag = self.currentNbFlag - 1;
