@@ -55,6 +55,9 @@
 	[caseOuverte release];
 	[caseFermee release];
 	[caseBombe release];
+	[caseExploded release];
+	[caseFlagMode release];
+	[caseWrongFlag release];
 	
 	[valuesColors release];
 	

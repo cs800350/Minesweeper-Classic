@@ -18,7 +18,7 @@
 @required
 - (int)getCellValue:(int)x withY:(int)y;
 - (int)getCellState:(int)x withY:(int)y;
-- (int)hasFlag:(int)x withY:(int)y;
+- (bool)hasFlag:(int)x withY:(int)y;
 - (int)getGridWidth;
 - (int)getGridHeigth;
 - (void)discloseSquare:(UITapGestureRecognizer *)sender;

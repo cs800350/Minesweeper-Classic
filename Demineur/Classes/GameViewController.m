@@ -107,8 +107,6 @@
 				}
 				else 
 				{
-					//[strechableCaseImageOuverte drawInRect:gs_rect];
-					//gameSquare.backgroundColor = caseOuverte;
 					[gameSquare setImage:self.gridView.caseOuverte];
 	
 					// Wrong flag - When the player lost and has placed a flag on a square that doesn't contain a bomb
@@ -297,16 +295,6 @@
 {
 	[super viewDidLoad];
 	
-	for (UIView *ui in self.view.subviews) 
-	{
-		if ([ui isKindOfClass:[GridView class]]) 
-		{
-			((GridView *)ui).gridDataSource = self;
-			self.gridView = ((GridView *)ui);
-			break;
-		}
-	}
-	
 	// Add the flag button on the navigation bar
 	UIImage *flagmodeImage = [UIImage imageNamed:@"caseFlag.png"];
 	UIButton *flagButton = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -360,6 +348,7 @@
 	
 	CGRect gg_rect = CGRectMake(xPadding, yPadding, grid_width, grid_heigth);
 	self.gridView = [[GridView alloc] initWithFrame:gg_rect];
+	self.gridView.gridDataSource = self;
 	self.gridView.autoresizingMask = (UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin 
 									  | UIViewAutoresizingFlexibleTopMargin | UIViewAutoresizingFlexibleBottomMargin);
 	[self.scrollView addSubview:self.gridView];
@@ -418,7 +407,7 @@
 	float xPadding = (rect.size.width - grid_width) /2;
 	float yPadding = (rect.size.height - grid_heigth) /2;
 	
-	// if we are not in beginner mode, fix the position of the gridview
+	// if we are not in beginner mode, fix the position of the gridview after rotation
 	if(self.gridBrain.gridHeigth > grid_heigth_medium && UIInterfaceOrientationIsPortrait(fromInterfaceOrientation))
 	{
 		
@@ -461,6 +450,7 @@
 	[gridBrain release];
 	[gridView release];
 	[timer release];
+	[scrollView release];
 	
     [super dealloc];
 }
