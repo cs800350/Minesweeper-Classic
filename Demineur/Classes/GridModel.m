@@ -212,6 +212,19 @@
 	return false;
 }
 
+-(bool)hasFlag:(int)x withY:(int)y
+{
+	if(self.gridFlags[x][y]==1)
+	{
+		return YES;
+	}
+	else 
+	{
+		return NO;
+	}
+
+}
+
 -(void)discloseGrid
 {
 	for (int i=0; i<self.gridWidth; i++) 

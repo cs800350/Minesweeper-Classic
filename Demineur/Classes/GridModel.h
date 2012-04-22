@@ -72,6 +72,7 @@ enum difficulties {BEGINER, MEDIUM, HARD};
 -(bool)putFlag:(int)x withY:(int)y;
 -(bool)removeFlag:(int)x withY:(int)y;
 -(int)getCellState:(int)x withY:(int)y;
+-(bool)hasFlag:(int)x withY:(int)y;
 -(void)discloseGrid;
 -(bool)didWin;
 -(int)minesRemaining;

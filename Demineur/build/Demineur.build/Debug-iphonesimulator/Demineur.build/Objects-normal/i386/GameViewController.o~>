@@ -1,0 +1,7 @@
+/Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/GameViewController.m: In function '-[GameViewController hasFlag:withY:]':
+/Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/GameViewController.m:267: warning: conflicting types for '-(_Bool)hasFlag:(int)x withY:(int)y'
+/Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/GridView.h:21: warning: previous declaration of '-(int)hasFlag:(int)x withY:(int)y'
+/Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/GameViewController.m:268: warning: 'GridModel' may not respond to '-hasFlag:withY:'
+/Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/GameViewController.m:268: warning: (Messages without a matching method signature
+/Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/GameViewController.m:268: warning: will be assumed to return 'id' and accept
+/Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/GameViewController.m:268: warning: '...' as arguments.)

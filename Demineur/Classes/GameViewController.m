@@ -62,7 +62,7 @@
 			{
 				//Case avec drapeau
 				//
-				if([self hasFlag:i withY:j]==1)
+				if([self hasFlag:i withY:j])
 				{
 					// Ajouter l'image de la case avec un drapeau
 					[gameSquare setImage:self.gridView.caseFlag];
@@ -111,7 +111,7 @@
 	
 					// Wrong flag - When the player lost and has placed a flag on a square that doesn't contain a bomb
 					// this square is disclosed by the model
-					if([self hasFlag:i withY:j]==1)
+					if([self hasFlag:i withY:j])
 					{
 						[gameSquare setImage:self.gridView.caseWrongFlag];
 					}
@@ -255,17 +255,17 @@
 
 - (int)getCellValue:(int)x withY:(int)y
 {
-	return self.gridBrain.gridValues[x][y];
+	return [self.gridBrain getCellValue:x withY:y];
 }
 
 - (int)getCellState:(int)x withY:(int)y
 {
-	return self.gridBrain.gridState[x][y];
+	return [self.gridBrain getCellState:x withY:y];
 }
 
-- (int)hasFlag:(int)x withY:(int)y
+- (bool)hasFlag:(int)x withY:(int)y
 {
-	return self.gridBrain.gridFlags[x][y];
+	return [self.gridBrain hasFlag:x withY:y];
 }
 
 - (int)getGridWidth
