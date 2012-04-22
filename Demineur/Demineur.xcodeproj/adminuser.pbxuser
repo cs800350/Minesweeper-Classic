@@ -77,16 +77,6 @@
 		vrLen = 1130;
 		vrLoc = 0;
 	};
-	1927FD781543A5D7000B7606 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 7183F1E5152C409A000D068B /* GameViewController.m */;
-		name = "GameViewController.m: 336";
-		rLen = 0;
-		rLoc = 8182;
-		rType = 0;
-		vrLen = 2756;
-		vrLoc = 7829;
-	};
 	1927FD881543A8E6000B7606 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 7183F1E5152C409A000D068B /* GameViewController.m */;
@@ -96,6 +86,16 @@
 		rType = 0;
 		vrLen = 2545;
 		vrLoc = 7593;
+	};
+	1927FD961543A9C4000B7606 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7183F1E5152C409A000D068B /* GameViewController.m */;
+		name = "GameViewController.m: 350";
+		rLen = 0;
+		rLoc = 8863;
+		rType = 0;
+		vrLen = 2563;
+		vrLoc = 7534;
 	};
 	196E694C1531B900009B7CF6 /* PBXBookmark */ = {
 		isa = PBXBookmark;
@@ -366,8 +366,8 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 356747644;
-			PBXWorkspaceStateSaveDate = 356747644;
+			PBXPerProjectTemplateStateSaveDate = 356755833;
+			PBXWorkspaceStateSaveDate = 356755833;
 		};
 		perUserProjectItems = {
 			1911C0211543467100A1BF99 /* PBXTextBookmark */ = 1911C0211543467100A1BF99 /* PBXTextBookmark */;
@@ -377,8 +377,8 @@
 			1927FD751543A5D7000B7606 /* PBXTextBookmark */ = 1927FD751543A5D7000B7606 /* PBXTextBookmark */;
 			1927FD761543A5D7000B7606 /* PBXTextBookmark */ = 1927FD761543A5D7000B7606 /* PBXTextBookmark */;
 			1927FD771543A5D7000B7606 /* PBXTextBookmark */ = 1927FD771543A5D7000B7606 /* PBXTextBookmark */;
-			1927FD781543A5D7000B7606 /* PBXTextBookmark */ = 1927FD781543A5D7000B7606 /* PBXTextBookmark */;
 			1927FD881543A8E6000B7606 /* PBXTextBookmark */ = 1927FD881543A8E6000B7606 /* PBXTextBookmark */;
+			1927FD961543A9C4000B7606 /* PBXTextBookmark */ = 1927FD961543A9C4000B7606 /* PBXTextBookmark */;
 			196E694C1531B900009B7CF6 /* PBXBookmark */ = 196E694C1531B900009B7CF6 /* PBXBookmark */;
 			197B26DE15345BBA00E89187 /* PBXTextBookmark */ = 197B26DE15345BBA00E89187 /* PBXTextBookmark */;
 			197B26E615345BBA00E89187 /* PBXBookmark */ = 197B26E615345BBA00E89187 /* PBXBookmark */;
@@ -443,7 +443,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1182, 5603}}";
 			sepNavSelRange = "{8863, 0}";
-			sepNavVisRange = "{7593, 2545}";
+			sepNavVisRange = "{7534, 2563}";
 			sepNavWindowFrame = "{{126, 106}, {841, 905}}";
 		};
 	};
