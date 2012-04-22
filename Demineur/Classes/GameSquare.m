@@ -2,8 +2,8 @@
 //  GameSquare.m
 //  Demineur
 //
-//  Created by Antoine on 04/04/12.
-//  Copyright 2012 __MyCompanyName__. All rights reserved.
+//  Created by Antoine Boulinguez and Shyn-Yuan CHENG on 04/04/12.
+//  Copyright 2012 M1 Miage - Université de Nice Sophia-Antipolis. All rights reserved.
 //
 
 #import "GameSquare.h"

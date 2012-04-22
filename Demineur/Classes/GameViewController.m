@@ -2,8 +2,8 @@
 //  GameViewController.m
 //  Demineur
 //
-//  Created by adminuser on 28/03/12.
-//  Copyright 2012 __MyCompanyName__. All rights reserved.
+//  Created by Antoine Boulinguez and Shyn-Yuan CHENG on 28/03/12.
+//  Copyright 2012 M1 Miage - Université de Nice Sophia-Antipolis. All rights reserved.
 //
 
 #import "GameViewController.h"
@@ -41,6 +41,8 @@
 		[timer start];
 		[timer release];
 		[NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(displayTime) userInfo:nil repeats:YES];
+		
+		self.title = [NSString stringWithFormat:@"%d sec | %d mines",timer.currentTime, [self.gridBrain minesRemaining]];
     }
     return self;
 }
