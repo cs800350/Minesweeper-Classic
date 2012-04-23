@@ -64,7 +64,7 @@
 				}
 				else 
 				{
-					if([self.gridDataSource flagMode])
+					if([self.gridDataSource flagMode] && ![self.gridDataSource gameFinished])
 					{
 						// Add the square image in flag mode
 						[gameSquare setImage:self.caseFlagMode];

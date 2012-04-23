@@ -46,6 +46,11 @@
     return self;
 }
 
+-(void)displayTime
+{
+	self.title = [NSString stringWithFormat:@"%d sec | %d mines",timer.currentTime, [self.gridBrain minesRemaining]];
+}
+
 - (void)toggleFlag:(int)x withY:(int)y
 {
 	if(![self.gridBrain putFlag:x withY:y])
@@ -125,11 +130,6 @@
 	}
 
 	[self.gridView updateGridView];
-}
-
--(void)displayTime
-{
-	self.title = [NSString stringWithFormat:@"%d sec | %d mines",timer.currentTime, [self.gridBrain minesRemaining]];
 }
 
 - (void)setFlagMode
