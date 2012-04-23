@@ -1,7 +1,7 @@
 TDemineur
 v7
 r0
-t356822974.887063
+t356903963.610226
 cCheck dependencies
 cProcessInfoPlistFile /Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app/Info.plist Demineur-Info.plist
 cCompileXIB /Users/adminuser/Documents/Minesweeper-Classic/Demineur/MainWindow.xib
@@ -86,8 +86,8 @@ i"MenuController.h"
 i"GridModel.h"
 
 N/Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/GameSquare.h
-c000000004F9382CC0000000000000190
-t1335067340
+c000000004F95AFC30000000000000190
+t1335209923
 s400
 i<UIKit/UIKit.h>
 
@@ -98,9 +98,9 @@ s523
 i"GameSquare.h"
 
 N/Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/GameViewController.h
-c000000004F93823400000000000004A5
-t1335067188
-s1189
+c000000004F95B393000000000000044F
+t1335210899
+s1103
 i<UIKit/UIKit.h>
 i<AVFoundation/AVAudioPlayer.h>
 i"GridModel.h"
@@ -109,9 +109,9 @@ i"GameSquare.h"
 i"Timer.h"
 
 N/Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/GameViewController.m
-c000000004F94715800000000000031C0
-t1335128408
-s12736
+c000000004F95B45600000000000027CB
+t1335211094
+s10187
 i"GameViewController.h"
 i"GridModel.h"
 i"GridView.h"
@@ -129,16 +129,16 @@ s6912
 i"GridModel.h"
 
 N/Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/GridView.h
-c000000004F94696E0000000000000522
-t1335126382
-s1314
+c000000004F95B2B100000000000005AF
+t1335210673
+s1455
 i<UIKit/UIKit.h>
 i"GameSquare.h"
 
 N/Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/GridView.m
-c000000004F946CCD000000000000066B
-t1335127245
-s1643
+c000000004F95B29B000000000000113E
+t1335210651
+s4414
 i"GridView.h"
 i"GameSquare.h"
 
@@ -232,16 +232,16 @@ t1334396360
 s24120
 
 N/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app
-t1335128414
+t1335211096
 s646
 
 N/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app.dSYM
-t1335128414
+t1335211096
 s102
 
 N/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app/Demineur
-t1335128414
-s71048
+t1335211096
+s71052
 
 N/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app/GameViewController.nib
 t1335063087
@@ -317,24 +317,24 @@ t1335067358
 s54332
 
 N/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/GameSquare.o
-t1335067359
+t1335210203
 s40356
 
 N/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/GameViewController.o
-t1335128414
-s93072
+t1335211096
+s85972
 
 N/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/GridModel.o
 t1335124373
 s27676
 
 N/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/GridView.o
-t1335127402
-s51396
+t1335210731
+s59540
 
 N/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/MenuController.o
-t1335126403
-s47804
+t1335210906
+s47796
 
 N/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/Timer.o
 t1335067359
@@ -782,7 +782,7 @@ lSLF07#2@70"Analyze /Users/adminuser/Documents/Minesweeper-Classic/Demineur/main
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies356822974#356822974#0(0"0(0#1#0"8611797888#0"0#
+lSLF07#2@18"Check dependencies356903963#356903963#0(0"0(0#1#0"8614209760#0"0#
 
 CCompileC build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/DemineurAppDelegate.o /Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/DemineurAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s356760158.494544
@@ -811,8 +811,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@73"Compile /Users/adminuser/Downloads/Demineur/Classes/DemineurAppDelegate.m356730011#356730011#0(0"0(0#0#65"/Users/adminuser/Downloads/Demineur/Classes/DemineurAppDelegate.m8603771808#1939"    cd /Users/adminuser/Downloads/Demineur    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/adminuser/Downloads/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-generated-files.hmap -I/Users/adminuser/Downloads/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-own-target-headers.hmap -I/Users/adminuser/Downloads/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-all-target-headers.hmap -iquote /Users/adminuser/Downloads/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-project-headers.hmap -F/Users/adminuser/Downloads/Demineur/build/Debug-iphonesimulator -I/Users/adminuser/Downloads/Demineur/build/Debug-iphonesimulator/include -I/Users/adminuser/Downloads/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources/i386 -I/Users/adminuser/Downloads/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources -include /var/folders/0d/0dCeAJcTHdGS39mqXs280k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demineur_Prefix-cqvhjqfwscxkveddriepwdputlum/Demineur_Prefix.pch -c /Users/adminuser/Downloads/Demineur/Classes/DemineurAppDelegate.m -o /Users/adminuser/Downloads/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/DemineurAppDelegate.o0#
 
 CCompileC build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/GameSquare.o /Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/GameSquare.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s356760158.949590
-e356760159.175803
+s356903003.588666
+e356903003.662756
 r1
 xCompileC
 xbuild/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/GameSquare.o
@@ -821,7 +821,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@84"Compile /Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/GameSquare.m356760158#356760159#0(0"0(0#0#76"/Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/GameSquare.m8607815520#2141"    cd /Users/adminuser/Documents/Minesweeper-Classic/Demineur    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-generated-files.hmap -I/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-own-target-headers.hmap -I/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-all-target-headers.hmap -iquote /Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-project-headers.hmap -F/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator -I/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/include -I/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources/i386 -I/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources -include /var/folders/0d/0dCeAJcTHdGS39mqXs280k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demineur_Prefix-epcvukiotwzrdcgopzzjkuqorpku/Demineur_Prefix.pch -c /Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/GameSquare.m -o /Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/GameSquare.o0#
+lSLF07#2@84"Compile /Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/GameSquare.m356903003#356903003#0(0"0(0#0#76"/Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/GameSquare.m8606699680#2141"    cd /Users/adminuser/Documents/Minesweeper-Classic/Demineur    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-generated-files.hmap -I/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-own-target-headers.hmap -I/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-all-target-headers.hmap -iquote /Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-project-headers.hmap -F/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator -I/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/include -I/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources/i386 -I/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources -include /var/folders/0d/0dCeAJcTHdGS39mqXs280k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demineur_Prefix-epcvukiotwzrdcgopzzjkuqorpku/Demineur_Prefix.pch -c /Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/GameSquare.m -o /Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/GameSquare.o0#
 
 CCompileC build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/GameSquare.o /Users/adminuser/Downloads/Demineur/Classes/GameSquare.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s356730012.033718
@@ -837,8 +837,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@64"Compile /Users/adminuser/Downloads/Demineur/Classes/GameSquare.m356730012#356730012#0(0"0(0#0#56"/Users/adminuser/Downloads/Demineur/Classes/GameSquare.m8599819840#1921"    cd /Users/adminuser/Downloads/Demineur    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/adminuser/Downloads/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-generated-files.hmap -I/Users/adminuser/Downloads/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-own-target-headers.hmap -I/Users/adminuser/Downloads/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-all-target-headers.hmap -iquote /Users/adminuser/Downloads/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-project-headers.hmap -F/Users/adminuser/Downloads/Demineur/build/Debug-iphonesimulator -I/Users/adminuser/Downloads/Demineur/build/Debug-iphonesimulator/include -I/Users/adminuser/Downloads/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources/i386 -I/Users/adminuser/Downloads/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources -include /var/folders/0d/0dCeAJcTHdGS39mqXs280k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demineur_Prefix-cqvhjqfwscxkveddriepwdputlum/Demineur_Prefix.pch -c /Users/adminuser/Downloads/Demineur/Classes/GameSquare.m -o /Users/adminuser/Downloads/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/GameSquare.o0#
 
 CCompileC build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/GameViewController.o /Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/GameViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s356821214.114493
-e356821214.310730
+s356903896.346526
+e356903896.561279
 r1
 xCompileC
 xbuild/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/GameViewController.o
@@ -847,7 +847,12 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@92"Compile /Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/GameViewController.m356821214#356821214#0(0"0(0#0#84"/Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/GameViewController.m8603450144#2157"    cd /Users/adminuser/Documents/Minesweeper-Classic/Demineur    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-generated-files.hmap -I/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-own-target-headers.hmap -I/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-all-target-headers.hmap -iquote /Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-project-headers.hmap -F/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator -I/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/include -I/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources/i386 -I/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources -include /var/folders/0d/0dCeAJcTHdGS39mqXs280k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demineur_Prefix-epcvukiotwzrdcgopzzjkuqorpku/Demineur_Prefix.pch -c /Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/GameViewController.m -o /Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/GameViewController.o0#
+o/Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/GameViewController.m: In function '-[GameViewController toggleFlag:withY:]':
+o/Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/GameViewController.m:56: warning: 'GameViewController' may not respond to '-displayTime'
+o/Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/GameViewController.m:56: warning: (Messages without a matching method signature
+o/Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/GameViewController.m:56: warning: will be assumed to return 'id' and accept
+o/Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/GameViewController.m:56: warning: '...' as arguments.)
+lSLF07#2@92"Compile /Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/GameViewController.m356903896#356903896#0(697"/Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/GameViewController.m: In function '-[GameViewController toggleFlag:withY:]':/Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/GameViewController.m:56: warning: 'GameViewController' may not respond to '-displayTime'/Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/GameViewController.m:56: warning: (Messages without a matching method signature/Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/GameViewController.m:56: warning: will be assumed to return 'id' and accept/Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/GameViewController.m:56: warning: '...' as arguments.)2(22@54"'GameViewController' may not respond to '-displayTime'356903896#141#153#0(6@84"/Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/GameViewController.m356903894#56#0#56#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)356903896#294#144#0(6@84"/Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/GameViewController.m356903894#56#0#56#0#0"0(0#0#84"/Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/GameViewController.m8613102432#2157"    cd /Users/adminuser/Documents/Minesweeper-Classic/Demineur    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-generated-files.hmap -I/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-own-target-headers.hmap -I/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-all-target-headers.hmap -iquote /Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-project-headers.hmap -F/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator -I/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/include -I/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources/i386 -I/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources -include /var/folders/0d/0dCeAJcTHdGS39mqXs280k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demineur_Prefix-epcvukiotwzrdcgopzzjkuqorpku/Demineur_Prefix.pch -c /Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/GameViewController.m -o /Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/GameViewController.o0#
 
 CCompileC build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/GameViewController.o /Users/adminuser/Downloads/Demineur/Classes/GameViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s356730011.836889
@@ -891,8 +896,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@63"Compile /Users/adminuser/Downloads/Demineur/Classes/GridModel.m356730011#356730011#0(0"0(0#0#55"/Users/adminuser/Downloads/Demineur/Classes/GridModel.m8603554016#1919"    cd /Users/adminuser/Downloads/Demineur    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/adminuser/Downloads/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-generated-files.hmap -I/Users/adminuser/Downloads/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-own-target-headers.hmap -I/Users/adminuser/Downloads/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-all-target-headers.hmap -iquote /Users/adminuser/Downloads/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-project-headers.hmap -F/Users/adminuser/Downloads/Demineur/build/Debug-iphonesimulator -I/Users/adminuser/Downloads/Demineur/build/Debug-iphonesimulator/include -I/Users/adminuser/Downloads/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources/i386 -I/Users/adminuser/Downloads/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources -include /var/folders/0d/0dCeAJcTHdGS39mqXs280k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demineur_Prefix-cqvhjqfwscxkveddriepwdputlum/Demineur_Prefix.pch -c /Users/adminuser/Downloads/Demineur/Classes/GridModel.m -o /Users/adminuser/Downloads/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/GridModel.o0#
 
 CCompileC build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/GridView.o /Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/GridView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s356820202.082236
-e356820202.268065
+s356903531.800913
+e356903531.909836
 r1
 xCompileC
 xbuild/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/GridView.o
@@ -901,7 +906,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@82"Compile /Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/GridView.m356820202#356820202#0(0"0(0#0#74"/Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/GridView.m8612880672#2137"    cd /Users/adminuser/Documents/Minesweeper-Classic/Demineur    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-generated-files.hmap -I/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-own-target-headers.hmap -I/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-all-target-headers.hmap -iquote /Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-project-headers.hmap -F/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator -I/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/include -I/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources/i386 -I/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources -include /var/folders/0d/0dCeAJcTHdGS39mqXs280k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demineur_Prefix-epcvukiotwzrdcgopzzjkuqorpku/Demineur_Prefix.pch -c /Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/GridView.m -o /Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/GridView.o0#
+lSLF07#2@82"Compile /Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/GridView.m356903531#356903531#0(0"0(0#0#74"/Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/GridView.m8613217504#2137"    cd /Users/adminuser/Documents/Minesweeper-Classic/Demineur    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-generated-files.hmap -I/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-own-target-headers.hmap -I/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-all-target-headers.hmap -iquote /Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-project-headers.hmap -F/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator -I/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/include -I/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources/i386 -I/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources -include /var/folders/0d/0dCeAJcTHdGS39mqXs280k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demineur_Prefix-epcvukiotwzrdcgopzzjkuqorpku/Demineur_Prefix.pch -c /Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/GridView.m -o /Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/GridView.o0#
 
 CCompileC build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/GridView.o /Users/adminuser/Downloads/Demineur/Classes/GridView.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s356730011.904726
@@ -917,8 +922,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@62"Compile /Users/adminuser/Downloads/Demineur/Classes/GridView.m356730011#356730012#0(0"0(0#0#54"/Users/adminuser/Downloads/Demineur/Classes/GridView.m8602766624#1917"    cd /Users/adminuser/Downloads/Demineur    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/adminuser/Downloads/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-generated-files.hmap -I/Users/adminuser/Downloads/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-own-target-headers.hmap -I/Users/adminuser/Downloads/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-all-target-headers.hmap -iquote /Users/adminuser/Downloads/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-project-headers.hmap -F/Users/adminuser/Downloads/Demineur/build/Debug-iphonesimulator -I/Users/adminuser/Downloads/Demineur/build/Debug-iphonesimulator/include -I/Users/adminuser/Downloads/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources/i386 -I/Users/adminuser/Downloads/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources -include /var/folders/0d/0dCeAJcTHdGS39mqXs280k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demineur_Prefix-cqvhjqfwscxkveddriepwdputlum/Demineur_Prefix.pch -c /Users/adminuser/Downloads/Demineur/Classes/GridView.m -o /Users/adminuser/Downloads/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/GridView.o0#
 
 CCompileC build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/MenuController.o /Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/MenuController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s356819203.094324
-e356819203.200194
+s356903706.675706
+e356903706.789370
 r1
 xCompileC
 xbuild/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/MenuController.o
@@ -929,7 +934,7 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 o/Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/MenuController.m: In function '-[MenuController startGamePressed:]':
 o/Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/MenuController.m:64: warning: incompatible Objective-C types initializing 'struct GridModel *', expected 'struct GameViewController *'
-lSLF07#2@88"Compile /Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/MenuController.m356819203#356819203#0(332"/Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/MenuController.m: In function '-[MenuController startGamePressed:]':/Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/MenuController.m:64: warning: incompatible Objective-C types initializing 'struct GridModel *', expected 'struct GameViewController *'1(22@104"Incompatible Objective-C types initializing 'struct GridModel *', expected 'struct GameViewController *'356819203#133#199#0(6@80"/Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/MenuController.m356760053#64#0#64#0#61"incompatible Objective-C types initializing '*', expected '*'0(0#0#80"/Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/MenuController.m8604603456#2149"    cd /Users/adminuser/Documents/Minesweeper-Classic/Demineur    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-generated-files.hmap -I/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-own-target-headers.hmap -I/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-all-target-headers.hmap -iquote /Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-project-headers.hmap -F/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator -I/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/include -I/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources/i386 -I/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources -include /var/folders/0d/0dCeAJcTHdGS39mqXs280k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demineur_Prefix-epcvukiotwzrdcgopzzjkuqorpku/Demineur_Prefix.pch -c /Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/MenuController.m -o /Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/MenuController.o0#
+lSLF07#2@88"Compile /Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/MenuController.m356903706#356903706#0(332"/Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/MenuController.m: In function '-[MenuController startGamePressed:]':/Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/MenuController.m:64: warning: incompatible Objective-C types initializing 'struct GridModel *', expected 'struct GameViewController *'1(22@104"Incompatible Objective-C types initializing 'struct GridModel *', expected 'struct GameViewController *'356903706#133#199#0(6@80"/Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/MenuController.m356760053#64#0#64#0#61"incompatible Objective-C types initializing '*', expected '*'0(0#0#80"/Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/MenuController.m8613561888#2149"    cd /Users/adminuser/Documents/Minesweeper-Classic/Demineur    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-generated-files.hmap -I/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-own-target-headers.hmap -I/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-all-target-headers.hmap -iquote /Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-project-headers.hmap -F/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator -I/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/include -I/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources/i386 -I/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources -include /var/folders/0d/0dCeAJcTHdGS39mqXs280k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demineur_Prefix-epcvukiotwzrdcgopzzjkuqorpku/Demineur_Prefix.pch -c /Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/MenuController.m -o /Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/MenuController.o0#
 
 CCompileC build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/MenuController.o /Users/adminuser/Downloads/Demineur/Classes/MenuController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s356730012.013834
@@ -1126,13 +1131,13 @@ xmusic_menu.mp3
 lSLF07#2@19"Copy music_menu.mp3356730056#356730056#0(0"0(0#0#50"/Users/adminuser/Downloads/Demineur/music_menu.mp38602570400#464"    cd /Users/adminuser/Downloads/Demineur    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/adminuser/Downloads/Demineur/music_menu.mp3 /Users/adminuser/Downloads/Demineur/build/Debug-iphonesimulator/Demineur.app0#
 
 CGenerateDSYMFile /Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app.dSYM /Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app/Demineur
-s356821214.344107
-e356821214.371353
+s356903896.590708
+e356903896.629858
 r1
 xGenerateDSYMFile
 x/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app.dSYM
 x/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app/Demineur
-lSLF07#2@112"GenerateDSYMFile build/Debug-iphonesimulator/Demineur.app.dSYM build/Debug-iphonesimulator/Demineur.app/Demineur356821214#356821214#0(0"0(0#0#105"/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app/Demineur8612389440#437"    cd /Users/adminuser/Documents/Minesweeper-Classic/Demineur    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app/Demineur -o /Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app.dSYM0#
+lSLF07#2@112"GenerateDSYMFile build/Debug-iphonesimulator/Demineur.app.dSYM build/Debug-iphonesimulator/Demineur.app/Demineur356903896#356903896#0(0"0(0#0#105"/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app/Demineur8600795360#437"    cd /Users/adminuser/Documents/Minesweeper-Classic/Demineur    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app/Demineur -o /Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app.dSYM0#
 
 CGenerateDSYMFile /Users/adminuser/Downloads/Demineur/build/Debug-iphonesimulator/Demineur.app.dSYM /Users/adminuser/Downloads/Demineur/build/Debug-iphonesimulator/Demineur.app/Demineur
 s356730012.225719
@@ -1144,14 +1149,14 @@ x/Users/adminuser/Downloads/Demineur/build/Debug-iphonesimulator/Demineur.app/De
 lSLF07#2@112"GenerateDSYMFile build/Debug-iphonesimulator/Demineur.app.dSYM build/Debug-iphonesimulator/Demineur.app/Demineur356730012#356730012#0(0"0(0#0#85"/Users/adminuser/Downloads/Demineur/build/Debug-iphonesimulator/Demineur.app/Demineur8608239808#377"    cd /Users/adminuser/Downloads/Demineur    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/adminuser/Downloads/Demineur/build/Debug-iphonesimulator/Demineur.app/Demineur -o /Users/adminuser/Downloads/Demineur/build/Debug-iphonesimulator/Demineur.app.dSYM0#
 
 CLd /Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app/Demineur normal i386
-s356821214.310821
-e356821214.343922
+s356903896.561368
+e356903896.590621
 r1
 xLd
 x/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app/Demineur
 xnormal
 xi386
-lSLF07#2@110"Link /Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app/Demineur356821214#356821214#0(0"0(0#0#0"8612664576#1014"    cd /Users/adminuser/Documents/Minesweeper-Classic/Demineur    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator -F/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator -filelist /Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/Demineur.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework AVFoundation -o /Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app/Demineur0#
+lSLF07#2@110"Link /Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app/Demineur356903896#356903896#0(0"0(0#0#0"8614094400#1014"    cd /Users/adminuser/Documents/Minesweeper-Classic/Demineur    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator -F/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator -filelist /Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Objects-normal/i386/Demineur.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework AVFoundation -o /Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app/Demineur0#
 
 CLd /Users/adminuser/Downloads/Demineur/build/Debug-iphonesimulator/Demineur.app/Demineur normal i386
 s356730012.191582
@@ -1205,12 +1210,12 @@ xcom.apple.compilers.llvm.clang.1_0.analyzer
 lSLF07#2@30"Precompile Demineur_Prefix.pch356740023#356740024#0(0"0(0#0#75"/Users/adminuser/Documents/Minesweeper-Classic/Demineur/Demineur_Prefix.pch8613849504#1986"    cd /Users/adminuser/Documents/Minesweeper-Classic/Demineur    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-generated-files.hmap -I/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-own-target-headers.hmap -I/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-all-target-headers.hmap -iquote /Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/Demineur-project-headers.hmap -F/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator -I/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/include -I/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources/i386 -I/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Demineur.build/Debug-iphonesimulator/Demineur.build/DerivedSources -c /Users/adminuser/Documents/Minesweeper-Classic/Demineur/Demineur_Prefix.pch -o /var/folders/0d/0dCeAJcTHdGS39mqXs280k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Demineur_Prefix-ggivdhcsoijwzobnudlblhdnzaky/Demineur_Prefix.pch.pth0#
 
 CTouch /Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app
-s356821214.371437
-e356821214.375897
+s356903896.629943
+e356903896.637432
 r1
 xTouch
 x/Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app
-lSLF07#2@102"Touch /Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app356821214#356821214#0(0"0(0#0#0"8602790912#313"    cd /Users/adminuser/Documents/Minesweeper-Classic/Demineur    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app0#
+lSLF07#2@102"Touch /Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app356903896#356903896#0(0"0(0#0#0"8602338368#313"    cd /Users/adminuser/Documents/Minesweeper-Classic/Demineur    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/adminuser/Documents/Minesweeper-Classic/Demineur/build/Debug-iphonesimulator/Demineur.app0#
 
 CTouch /Users/adminuser/Downloads/Demineur/build/Debug-iphonesimulator/Demineur.app
 s356730056.826276

@@ -26,7 +26,6 @@
 @synthesize lastTouchedX;
 @synthesize lastTouchedY;
 @synthesize musicPlayer;
-@synthesize listSquares;
 
 - (id)initWithDifficulty:(enum difficulties)difficulty 
 {
@@ -47,127 +46,13 @@
     return self;
 }
 
--(void)updateGridView
-{
-	int i = 0;
-	int j = 0;
-	
-	for (NSMutableArray *colsArray in self.listSquares) 
-	{
-		j = 0;
-		for (GameSquare *gameSquare in colsArray) 
-		{
-			//Choix des images pour la case
-			//Cases fermées
-			//
-			if ([self getCellState:i withY:j]==0) 
-			{
-				//Case avec drapeau
-				//
-				if([self hasFlag:i withY:j])
-				{
-					// Ajouter l'image de la case avec un drapeau
-					[gameSquare setImage:self.gridView.caseFlag];
-				}
-				else 
-				{
-					if([self flagMode])
-					{
-						// Add the square image in flag mode
-						[gameSquare setImage:self.gridView.caseFlagMode];
-					}
-					else {
-						// Add the square image in normal mode
-						[gameSquare setImage:self.gridView.caseFermee];
-					}
-
-				}
-			}
-			
-			//Cases ouvertes
-			//
-			else if([self getCellState:i withY:j]==1)
-			{		
-				int value = [self getCellValue:i withY:j];
-				
-				//Case avec bombe
-				//
-				if(value==-1)
-				{
-					if([self lastTouchedX]==i && [self lastTouchedY] == j)
-					{
-						// Add cthe square image containing the exploded bomb
-						[gameSquare setImage:self.gridView.caseExploded];
-					}
-					else {
-						// Add cthe square image containing the bomb
-						[gameSquare setImage:self.gridView.caseBombe];
-					}
-					
-				}
-				else 
-				{
-					[gameSquare setImage:self.gridView.caseOuverte];
-	
-					// Wrong flag - When the player lost and has placed a flag on a square that doesn't contain a bomb
-					// this square is disclosed by the model
-					if([self hasFlag:i withY:j] && self.gameFinished && !self.victory)
-					{
-						[gameSquare setImage:self.gridView.caseWrongFlag];
-					}
-					
-					//Case ouverte avec une valeur
-					//
-					else if(value!=-1 && value!=0 && !gameSquare.label)
-					{
-						CGRect gs_rect2 = CGRectMake(0, 0, gameSquare.frame.size.width, gameSquare.frame.size.height);
-						
-						NSString *str_value = [[NSString alloc] initWithFormat:@"%d",value];
-						
-						UILabel *label = [[UILabel alloc]initWithFrame:gs_rect2];
-						label.text = str_value;
-						label.backgroundColor = [UIColor clearColor];
-						label.font = [UIFont fontWithName:@"arial" size:30.0];
-						label.textAlignment = UITextAlignmentCenter;
-						
-						//Text color
-						//
-						if(value <= [self.gridView.valuesColors count])
-						{
-							int index = value - 1;
-							label.textColor = (UIColor*)[self.gridView.valuesColors objectAtIndex:index];
-						}
-						else 
-						{
-							label.textColor = [UIColor blackColor];
-						}
-						
-						[gameSquare addSubview:label];
-						gameSquare.label = label;
-						[label release];
-						[str_value release];
-					}
-				}
-			}
-			
-			j++;
-		}
-		i++;
-	}
-}
-
--(void)displayTime
-{
-	self.title = [NSString stringWithFormat:@"%d sec | %d mines",timer.currentTime, [self.gridBrain minesRemaining]];
-}
-
 - (void)toggleFlag:(int)x withY:(int)y
 {
 	if(![self.gridBrain putFlag:x withY:y])
 	{
 		[self.gridBrain removeFlag:x withY:y];
 	}
-	[self updateGridView];
+	[self.gridView updateGridView];
 	[self displayTime];
 }
 
@@ -239,18 +124,33 @@
 		[finishBox release];	
 	}
 
-	[self updateGridView];
+	[self.gridView updateGridView];
 }
 
--(void)setFlagMode
+-(void)displayTime
+{
+	self.title = [NSString stringWithFormat:@"%d sec | %d mines",timer.currentTime, [self.gridBrain minesRemaining]];
+}
+
+- (void)setFlagMode
 {
 	flagMode = !flagMode;
-	[self updateGridView];
+	[self.gridView updateGridView];
 }
 
--(bool)flagMode
+- (bool)flagMode
 {
 	return flagMode;
+}
+
+- (bool)gameFinished
+{
+	return gameFinished;
+}
+
+- (bool)victory
+{
+	return victory;
 }
 
 - (int)getCellValue:(int)x withY:(int)y
@@ -354,7 +254,7 @@
 	[self.scrollView addSubview:self.gridView];
 	[self.gridView release];
 	
-	self.listSquares = [[NSMutableArray alloc] init];
+	self.gridView.listSquares = [[NSMutableArray alloc] init];
 	
 	// Dessiner les cases de la map, chaque case étant un bouton
 	for(int i=0; i<nbCasesX; i++)
@@ -389,11 +289,11 @@
 			[gameSquare release];
 		}
 		
-		[self.listSquares addObject:arrayColonnes];
+		[self.gridView.listSquares addObject:arrayColonnes];
 		[arrayColonnes release];
 	}
 	
-	[self.listSquares release];
+	[self.gridView.listSquares release];
 }
 
 - (void)didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation {
@@ -446,7 +346,6 @@
 -(void)dealloc {
 	//Dealloc listSquares
 	//
-	[listSquares release];
 	[gridBrain release];
 	[gridView release];
 	[timer release];

@@ -26,6 +26,8 @@
 - (int)lastTouchedX;
 - (int)lastTouchedY;
 - (bool)flagMode;
+- (bool)gameFinished;
+- (bool)victory;
 
 @end
 
@@ -42,6 +44,7 @@
 	UIImage *caseFlagMode;
 	UIImage *caseWrongFlag;
 	NSArray *valuesColors;	
+	NSMutableArray *listSquares;
 }
 
 @property (assign)id<GridDataSource> gridDataSource;
@@ -54,5 +57,8 @@
 @property (retain)UIImage *caseExploded;
 @property (retain)UIImage *caseFlagMode;
 @property (retain)NSArray *valuesColors;
+@property (retain)NSMutableArray *listSquares;
+
+- (void)updateGridView;
 
 @end

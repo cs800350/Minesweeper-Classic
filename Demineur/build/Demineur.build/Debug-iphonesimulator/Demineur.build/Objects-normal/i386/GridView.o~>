@@ -1,0 +1,8 @@
+/Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/GridView.m: In function '-[GridView updateGridView]':
+/Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/GridView.m:107: warning: '-gameFinished' not found in protocol(s)
+/Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/GridView.m:107: warning: no '-gameFinished' method found
+/Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/GridView.m:107: warning: (Messages without a matching method signature
+/Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/GridView.m:107: warning: will be assumed to return 'id' and accept
+/Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/GridView.m:107: warning: '...' as arguments.)
+/Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/GridView.m:107: warning: '-victory' not found in protocol(s)
+/Users/adminuser/Documents/Minesweeper-Classic/Demineur/Classes/GridView.m:107: warning: no '-victory' method found

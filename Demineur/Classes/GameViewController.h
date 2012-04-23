@@ -21,7 +21,6 @@
 	GridView *gridView;
 	UIScrollView *scrollView;
 	Timer *timer;
-	NSMutableArray *listSquares;
 	
 	bool gameFinished;
 	bool victory;
@@ -34,11 +33,10 @@
 	AVAudioPlayer *musicPlayer;
 }
 
-@property (retain) GridModel      *gridBrain;
-@property (retain) GridView       *gridView;
-@property (retain) UIScrollView   *scrollView;
-@property (retain) Timer          *timer;
-@property (retain) NSMutableArray *listSquares;
+@property (retain) GridModel    *gridBrain;
+@property (retain) GridView     *gridView;
+@property (retain) UIScrollView *scrollView;
+@property (retain) Timer        *timer;
 
 @property bool gameFinished;
 @property bool victory;
